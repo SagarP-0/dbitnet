@@ -1,0 +1,8 @@
+# CPU pipeline (Python 3.10). Install ONLY into a user-owned environment, after reading docs/DEPENDENCY_REPORT.md.
+# Provisional until your `aes-cryptanalysis` env has been inspected (scripts/env_report.py).
+# Resolved in the *development sandbox* (CPython 3.10.20, NOT your cluster): tensorflow-cpu 2.15.1,
+# keras 2.15.0, numpy 1.26.4, h5py 3.16.0, protobuf 4.25.9, ml-dtypes 0.3.2.
+tensorflow-cpu==2.15.1      # last TF line whose tf.keras is Keras 2 (reads legacy .h5); supports Python 3.9-3.11
+numpy>=1.23.5,<2            # TF 2.15 requires numpy<2
+h5py>=3.10                  # legacy .h5 pretrained models
+pyyaml>=6.0                 # config/experiments.yaml

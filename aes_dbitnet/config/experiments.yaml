@@ -1,0 +1,39 @@
+# Central experiment configuration. Nothing here is a measurement.
+# Out dir: set AESDIST_OUT_DIR (or --out-dir). Baseline source dir: NDGOHR_BASELINE_DIR (read-only).
+
+dataset:
+  diff: 0x80            # plaintext difference value, byte 0 (verified against generate_train_data)
+  data_seed: 12345      # dataset seed (independent of training seeds)
+  fractions: [0.8, 0.1, 0.1]
+
+modes:
+  smoke: {n: 4000,    chunk_size: 400,   epochs: 2,  batch_size: 250,  seeds: [0]}
+  full:  {n: 1000000, chunk_size: 50000, epochs: 20, batch_size: 5000, seeds: [0, 1, 2]}   # needs --full-experiment
+
+# Training protocols. "controlled" is used for BOTH architectures in the primary comparison.
+protocols:
+  controlled:             {loss: bce, optimizer: adam, lr: 1.0e-3, min_lr: 1.0e-5, schedule: cosine, best_metric: val_loss}
+  ndgohr_original_recipe: {loss: mse, optimizer: adam, lr: 2.0e-3, min_lr: 1.0e-4, schedule: cyclic, best_metric: val_loss}
+  # ^ main_net.py: loss='mse', optimizer='adam' driven by LearningRateScheduler(cyclic_lr(10, 0.002, 0.0001)),
+  #   checkpoint monitor val_loss. Reported as a sensitivity run only.
+
+architectures:
+  ndgohr:  {input_mode: channels2}                       # faithful make_resnet (depth 5, 16 filters, k=3, L2 1e-5)
+  dbitnet: {input_mode: channels2, n_layers: 5, kernel: 3, dilations: [1, 2, 4, 8, 16], filters: 32,
+            residual: false, pool: gap, dense_units: 64, second_dense: false, reg: 0.0}
+  dbitnet_concat1: {base: dbitnet, input_mode: concat1}  # ablation (single concatenated channel)
+
+# nr = AES rounds. final_mc = keep MixColumns in the final round (aes_encrypt flag).
+# 2-round rows use final_mc=true because the source says the original 2-round distinguishers
+# were trained with MC (AES_128_batch.py comment in aes_encrypt); 3-round uses false.
+experiments:
+  r2_full:   {enabled: true,  nr: 2, final_mc: true,  bytes: full,   note: "word_size=128"}
+  r2_2B:     {enabled: true,  nr: 2, final_mc: true,  bytes: 2B_r2,  note: "state bytes [0,1]; the WKRP/attack-relevant distinguisher"}
+  r2_1B:     {enabled: true,  nr: 2, final_mc: true,  bytes: 1B,     note: "byte index 0 is a config choice"}
+  r3_full:   {enabled: true,  nr: 3, final_mc: false, bytes: full}
+  r3_col0_4B: {enabled: true, nr: 3, final_mc: false, bytes: col0,   note: "AMBIGUOUS in source: column vs row; col0=[0,1,2,3]"}
+  r3_row0_4B: {enabled: false, nr: 3, final_mc: false, bytes: row0,  note: "alternative reading: [0,4,8,12]"}
+  r3_2B:     {enabled: true,  nr: 3, final_mc: false, bytes: 2B_r3,  note: "[0,13] from main_net/test_something"}
+  r3_1B:     {enabled: true,  nr: 3, final_mc: false, bytes: 1B,     note: "NO source precedent for 3-round 1 byte; index 0 is a config choice"}
+  # ablations (disabled by default)
+  r2_2B_noMC: {enabled: false, nr: 2, final_mc: false, bytes: 2B_r2, note: "tests the final-MC assumption"}

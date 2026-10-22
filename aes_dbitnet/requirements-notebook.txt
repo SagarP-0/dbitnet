@@ -1,0 +1,4 @@
+# Only needed if your env lacks them (check env_report.py first); used by the notebook (next deliverable).
+jupyterlab>=4,<5
+ipykernel>=6
+matplotlib>=3.7

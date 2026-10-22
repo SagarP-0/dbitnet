@@ -1,0 +1,540 @@
+{
+  "all_ok": true,
+  "baseline_sha256": {
+    "16bit_AES_key_recovery_attack.py": "8315f754c3304fdec8f6a68d12744b382ed257555cfbffaa036be4f5ebb7790c",
+    "AES_128_batch.py": "c135ac60f88ad7abbfb75663e119e78c30741ef3b907f1b544df697fccd06569",
+    "main_net.py": "cd6fb5d2e77d42d81f051849962e7ba95f9104d2dfdd3d08a05b9ac84ffd4f4f",
+    "test_something.ipynb": "1f1d0d36c92736e60c046424a48b3b005e22a73965ea3031f30c583c8a9865b6"
+  },
+  "checks": [
+    {
+      "check": "device configured",
+      "detail": "{'device': 'cpu', 'threads': None}",
+      "ok": true,
+      "stage": "S1"
+    },
+    {
+      "check": "TensorFlow importable",
+      "detail": "2.15.1",
+      "ok": true,
+      "stage": "S1"
+    },
+    {
+      "check": "no GPU visible to TF in cpu mode",
+      "detail": "set_visible_devices([], 'GPU') applied",
+      "ok": true,
+      "stage": "S1"
+    },
+    {
+      "check": "original baseline files hashed (not modified)",
+      "detail": "4 files",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "original s_box == S-box generated from GF(2^8) definition",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "original inv_s_box == generated inverse",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "FIPS-197 App.B: original aes_encrypt(nr=10, no final MC) == vector",
+      "detail": "3925841d02dc09fbdc118597196a0b32",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "FIPS-197 App.B: pure-Python reference == vector",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "FIPS-197 App.B: original decrypt(encrypt(pt)) == pt",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "FIPS-197 App.C.1: original aes_encrypt(nr=10, no final MC) == vector",
+      "detail": "69c4e0d86a7b0430d8cdb78070b4c55a",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "FIPS-197 App.C.1: pure-Python reference == vector",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "FIPS-197 App.C.1: original decrypt(encrypt(pt)) == pt",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "key schedule: round key 1 (FIPS-197 A.1)",
+      "detail": "a0fafe1788542cb123a339392a6c7605",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "original aes_encrypt output dtype (documented quirk)",
+      "detail": "int64",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "key schedule: round key 10 (FIPS-197 A.1)",
+      "detail": "d014f9a8c9ee2589e13f0cc8b6630ca6",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "reference: state after round 1 (FIPS-197 App.B)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "reduced-round nr=1 final_mc=False: original == reference (24 random vectors)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "reduced-round nr=1 final_mc=True: original == reference (24 random vectors)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "reduced-round nr=2 final_mc=False: original == reference (24 random vectors)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "reduced-round nr=2 final_mc=True: original == reference (24 random vectors)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "reduced-round nr=3 final_mc=False: original == reference (24 random vectors)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "reduced-round nr=3 final_mc=True: original == reference (24 random vectors)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "reduced-round nr=4 final_mc=False: original == reference (24 random vectors)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "reduced-round nr=4 final_mc=True: original == reference (24 random vectors)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "key_expansion(nr=3)[:3] == key_expansion(nr=2)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "derived key indices == original attack table",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "3-round ct, true last subkey, ARK-InvSR-InvSB == 2-round ct with final MC",
+      "detail": "",
+      "ok": true,
+      "stage": "S2"
+    },
+    {
+      "check": "r2_2B: resource estimate",
+      "detail": "{'disk_bytes': 132000, 'peak_ram_generation_bytes_rough': 231600, 'note': 'RAM figure is a coarse upper-bound heuristic, not a measurement.'}",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r2_2B: all chunks present and checksummed",
+      "detail": "{}",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r2_2B: decrypt(ct0) == pt0",
+      "detail": "",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r2_2B: decrypt(ct1) == pt1",
+      "detail": "",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r2_2B: label 1: pt0^pt1 == 0x80 at byte 0, 0 elsewhere",
+      "detail": "",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r2_2B: label 0: pt0^pt1 != fixed difference (all examples)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r2_2B: class balance exact",
+      "detail": "n1=200 n=400",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r2_2B: dtypes uint8",
+      "detail": "",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r2_2B: split sizes",
+      "detail": "{'train': 3200, 'val': 400, 'test': 400}",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r3_2B: resource estimate",
+      "detail": "{'disk_bytes': 132000, 'peak_ram_generation_bytes_rough': 231600, 'note': 'RAM figure is a coarse upper-bound heuristic, not a measurement.'}",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r3_2B: all chunks present and checksummed",
+      "detail": "{}",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r3_2B: decrypt(ct0) == pt0",
+      "detail": "",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r3_2B: decrypt(ct1) == pt1",
+      "detail": "",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r3_2B: label 1: pt0^pt1 == 0x80 at byte 0, 0 elsewhere",
+      "detail": "",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r3_2B: label 0: pt0^pt1 != fixed difference (all examples)",
+      "detail": "",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r3_2B: class balance exact",
+      "detail": "n1=200 n=400",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r3_2B: dtypes uint8",
+      "detail": "",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "r3_2B: split sizes",
+      "detail": "{'train': 3200, 'val': 400, 'test': 400}",
+      "ok": true,
+      "stage": "S2b"
+    },
+    {
+      "check": "ndgohr/r2_2B: output shape == (batch,1)",
+      "detail": "(8, 1)",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "ndgohr/r2_2B: parameters finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "ndgohr/r2_2B: loss finite",
+      "detail": "1.0018",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "ndgohr/r2_2B: gradients exist and are finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "ndgohr/r3_2B: output shape == (batch,1)",
+      "detail": "(8, 1)",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "ndgohr/r3_2B: parameters finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "ndgohr/r3_2B: loss finite",
+      "detail": "0.7704",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "ndgohr/r3_2B: gradients exist and are finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet/r2_2B: output shape == (batch,1)",
+      "detail": "(8, 1)",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet/r2_2B: parameters finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet/r2_2B: loss finite",
+      "detail": "0.8954",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet/r2_2B: gradients exist and are finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet/r3_2B: output shape == (batch,1)",
+      "detail": "(8, 1)",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet/r3_2B: parameters finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet/r3_2B: loss finite",
+      "detail": "0.5603",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet/r3_2B: gradients exist and are finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet_concat1/r2_2B: output shape == (batch,1)",
+      "detail": "(8, 1)",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet_concat1/r2_2B: parameters finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet_concat1/r2_2B: loss finite",
+      "detail": "1.1178",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet_concat1/r2_2B: gradients exist and are finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet_concat1/r3_2B: output shape == (batch,1)",
+      "detail": "(8, 1)",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet_concat1/r3_2B: parameters finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet_concat1/r3_2B: loss finite",
+      "detail": "0.9593",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "dbitnet_concat1/r3_2B: gradients exist and are finite",
+      "detail": "",
+      "ok": true,
+      "stage": "S1b"
+    },
+    {
+      "check": "ndgohr: epoch 1 finite loss + checkpoint written",
+      "detail": "",
+      "ok": true,
+      "stage": "S3"
+    },
+    {
+      "check": "ndgohr: resumed to completion",
+      "detail": "completed",
+      "ok": true,
+      "stage": "S3"
+    },
+    {
+      "check": "ndgohr: latest checkpoint validates",
+      "detail": "",
+      "ok": true,
+      "stage": "S3"
+    },
+    {
+      "check": "ndgohr: test metrics computed from held-out predictions",
+      "detail": "{'accuracy': 0.5375, 'tpr': 0.795, 'tnr': 0.28}",
+      "ok": true,
+      "stage": "S3"
+    },
+    {
+      "check": "dbitnet: epoch 1 finite loss + checkpoint written",
+      "detail": "",
+      "ok": true,
+      "stage": "S3"
+    },
+    {
+      "check": "dbitnet: resumed to completion",
+      "detail": "completed",
+      "ok": true,
+      "stage": "S3"
+    },
+    {
+      "check": "dbitnet: latest checkpoint validates",
+      "detail": "",
+      "ok": true,
+      "stage": "S3"
+    },
+    {
+      "check": "dbitnet: test metrics computed from held-out predictions",
+      "detail": "{'accuracy': 0.5, 'tpr': 1.0, 'tnr': 0.0}",
+      "ok": true,
+      "stage": "S3"
+    },
+    {
+      "check": "256 deltas evaluated in 4 resumable chunks",
+      "detail": "{'model_evals': 8192, 'byte_pair_partial_decryptions': 16384}",
+      "ok": true,
+      "stage": "WKRP"
+    },
+    {
+      "check": "summary computed; delta=0 row present",
+      "detail": "{'rank_of_delta0': 231}",
+      "ok": true,
+      "stage": "WKRP"
+    }
+  ],
+  "env": {
+    "cpu_count": 1,
+    "cpu_model": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+    "hostname": "vm",
+    "keras": "?",
+    "machine": "x86_64",
+    "numpy": "1.26.4",
+    "platform": "Linux-6.18.44-fc-v140-x86_64-with-glibc2.39",
+    "python": "3.10.20 (main, Apr 14 2026, 14:28:08) [Clang 22.1.3 ]",
+    "slurm_env": {},
+    "tensorflow": "2.15.1",
+    "tf_built_with_cuda": false,
+    "tf_visible_gpus": []
+  },
+  "trained_metrics_SMOKE_ONLY": {
+    "dbitnet": {
+      "accuracy": 0.5,
+      "bce": 0.6936066310822937,
+      "eval_wall_s_incl_bit_encoding": 0.022168108000002462,
+      "fn": 0,
+      "fp": 200,
+      "mse": 0.2502296212154053,
+      "n": 400,
+      "params_non_trainable": 448,
+      "params_total": 15553,
+      "params_trainable": 15105,
+      "pct_random_above_real_median": 52.0,
+      "precision": 0.5,
+      "threshold": 0.5,
+      "tn": 0,
+      "tnr": 0.0,
+      "tp": 200,
+      "tpr": 1.0
+    },
+    "ndgohr": {
+      "accuracy": 0.5375,
+      "bce": 0.6963719355477366,
+      "eval_wall_s_incl_bit_encoding": 0.028383163000000877,
+      "fn": 41,
+      "fp": 144,
+      "mse": 0.2515943113036617,
+      "n": 400,
+      "params_non_trainable": 608,
+      "params_total": 29777,
+      "params_trainable": 29169,
+      "pct_random_above_real_median": 48.0,
+      "precision": 0.5247524752475248,
+      "threshold": 0.5,
+      "tn": 56,
+      "tnr": 0.28,
+      "tp": 159,
+      "tpr": 0.795
+    }
+  },
+  "wall_s": 24.141642332077026
+}

@@ -1,0 +1,8 @@
+# CONDITIONAL - do not install until the administrator-approved GPU allocation procedure is known and
+# you have decided where CUDA libraries come from (cluster module vs pip wheels).
+# Same TF line as the CPU file; the CPU and GPU TF wheels must NOT be installed in the same environment.
+#   tensorflow[and-cuda]==2.15.1   # pulls CUDA 12.2 / cuDNN 8.9 user-space wheels (several GB; check quota)
+# Compatibility with H100 (sm_90) in this wheel is UNVERIFIED here; expect possible PTX JIT startup cost.
+numpy>=1.23.5,<2
+h5py>=3.10
+pyyaml>=6.0
