@@ -1,0 +1,48 @@
+{
+  "arch_hash": "56f15cbb594ad06b",
+  "arch_name": "ndgohr",
+  "batch_size": 1000,
+  "best_metric": "val_loss",
+  "byte_idx": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "early_stopping": null,
+  "epochs": 20,
+  "eval_batch": 10000,
+  "experiment": "r3_full_noMC",
+  "final_mc": false,
+  "loss": "mse",
+  "lr": 0.002,
+  "min_lr": 0.0001,
+  "mode": "full",
+  "model": {
+    "arch": "ndgohr",
+    "bits": 128,
+    "input_mode": "channels2"
+  },
+  "nr": 3,
+  "params": {
+    "non_trainable": 608,
+    "total": 144465,
+    "trainable": 143857
+  },
+  "protocol": "ndgohr_original_recipe",
+  "schedule": "cyclic",
+  "seed": 0,
+  "snapshot_every": 0
+}

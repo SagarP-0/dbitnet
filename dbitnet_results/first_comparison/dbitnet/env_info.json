@@ -1,0 +1,23 @@
+{
+  "cpu_count": 256,
+  "cpu_model": "INTEL(R) XEON(R) PLATINUM 8592+",
+  "hostname": "ccs-srv003",
+  "keras": "?",
+  "machine": "x86_64",
+  "numpy": "1.26.4",
+  "platform": "Linux-5.14.0-611.24.1.el9_7.x86_64-x86_64-with-glibc2.34",
+  "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+  "slurm_env": {
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_JOB_ACCOUNT": "ccs-crypto",
+    "SLURM_JOB_ID": "2019",
+    "SLURM_JOB_NAME": "bash",
+    "SLURM_JOB_PARTITION": "cpu",
+    "SLURM_JOB_QOS": "normal_3",
+    "SLURM_NODELIST": "ccs-srv003"
+  },
+  "tensorflow": "2.15.1",
+  "tf_built_with_cuda": false,
+  "tf_visible_gpus": []
+}

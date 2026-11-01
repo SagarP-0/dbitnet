@@ -1,0 +1,63 @@
+{
+  "arch_hash": "9ab78f7daa486531",
+  "arch_name": "dbitnet",
+  "batch_size": 1000,
+  "best_metric": "val_loss",
+  "byte_idx": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "early_stopping": null,
+  "epochs": 20,
+  "eval_batch": 10000,
+  "experiment": "r3_full_mc",
+  "final_mc": true,
+  "loss": "mse",
+  "lr": 0.002,
+  "min_lr": 0.0001,
+  "mode": "full",
+  "model": {
+    "arch": "dbitnet",
+    "bits": 128,
+    "dense_units": 64,
+    "dilations": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "filters": 32,
+    "input_mode": "channels2",
+    "kernel": 3,
+    "n_layers": 5,
+    "pool": "gap",
+    "reg": 0.0,
+    "residual": false,
+    "second_dense": false
+  },
+  "nr": 3,
+  "params": {
+    "non_trainable": 448,
+    "total": 15553,
+    "trainable": 15105
+  },
+  "protocol": "ndgohr_original_recipe",
+  "schedule": "cyclic",
+  "seed": 0,
+  "snapshot_every": 0
+}

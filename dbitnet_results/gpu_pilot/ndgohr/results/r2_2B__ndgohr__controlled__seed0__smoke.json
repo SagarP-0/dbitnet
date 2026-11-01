@@ -1,0 +1,44 @@
+{
+  "arch": "ndgohr",
+  "best_epoch": 2,
+  "bytes": [
+    0,
+    1
+  ],
+  "dataset_dir": "/export/home/sagarp/aes_dbitnet_outputs/gpu_pilot/ndgohr/data/ds_r2_mc1_s12345_n4000_c400_3ca760b5",
+  "epochs_run": 2,
+  "inference": {
+    "latency_ms_median": 12.145958025939763,
+    "latency_ms_p95": 12.385827559046447,
+    "n_single_calls": 200,
+    "repeats": 5,
+    "throughput_batch": 400,
+    "throughput_samples_per_s": 32446.850519073294
+  },
+  "mode": "smoke",
+  "nr": 2,
+  "protocol": "controlled",
+  "run_id": "r2_2B__ndgohr__controlled__seed0__smoke",
+  "seed": 0,
+  "test": {
+    "accuracy": 0.53,
+    "bce": 0.6966282300612013,
+    "eval_wall_s_incl_bit_encoding": 0.014247976010665298,
+    "fn": 42,
+    "fp": 146,
+    "mse": 0.2517212981537849,
+    "n": 400,
+    "params_non_trainable": 608,
+    "params_total": 29777,
+    "params_trainable": 29169,
+    "pct_random_above_real_median": 47.5,
+    "precision": 0.5197368421052632,
+    "threshold": 0.5,
+    "tn": 54,
+    "tnr": 0.27,
+    "tp": 158,
+    "tpr": 0.79
+  },
+  "train_time_s_per_epoch_mean": 10.1560651184991,
+  "train_time_s_total": 20.3121302369982
+}

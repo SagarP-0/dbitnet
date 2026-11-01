@@ -1,0 +1,30 @@
+{
+  "completed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "config": {
+    "N": 32,
+    "ct_indices": [
+      0,
+      13
+    ],
+    "data_sha256": "fc6b01360a7cf3f38fd2a3988e726a8af2f8bdb875f5c1fecdf93ea386583150",
+    "delta_chunk": 64,
+    "input_mode": "channels2",
+    "llr_clip": 1e-07,
+    "n_deltas": 256,
+    "state_bytes": [
+      0,
+      1
+    ],
+    "std_convention": "population (ddof=0)",
+    "tag": "smoke_dbitnet_untrained_ish"
+  },
+  "counters": {
+    "byte_pair_partial_decryptions": 16384,
+    "model_evals": 8192
+  }
+}

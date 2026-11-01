@@ -1,0 +1,49 @@
+{
+  "arch_hash": "9b40b746624c588f",
+  "arch_name": "dbitnet",
+  "batch_size": 250,
+  "best_metric": "val_loss",
+  "byte_idx": [
+    0,
+    1
+  ],
+  "early_stopping": null,
+  "epochs": 2,
+  "eval_batch": 10000,
+  "experiment": "r2_2B",
+  "final_mc": true,
+  "loss": "bce",
+  "lr": 0.001,
+  "min_lr": 1e-05,
+  "mode": "smoke",
+  "model": {
+    "arch": "dbitnet",
+    "bits": 16,
+    "dense_units": 64,
+    "dilations": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "filters": 32,
+    "input_mode": "channels2",
+    "kernel": 3,
+    "n_layers": 5,
+    "pool": "gap",
+    "reg": 0.0,
+    "residual": false,
+    "second_dense": false
+  },
+  "nr": 2,
+  "params": {
+    "non_trainable": 448,
+    "total": 15553,
+    "trainable": 15105
+  },
+  "protocol": "controlled",
+  "schedule": "cosine",
+  "seed": 0,
+  "snapshot_every": 0
+}

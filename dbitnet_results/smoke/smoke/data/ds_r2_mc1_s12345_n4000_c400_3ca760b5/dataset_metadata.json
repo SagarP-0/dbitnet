@@ -1,0 +1,40 @@
+{
+  "baseline_sha256": {
+    "16bit_AES_key_recovery_attack.py": "8315f754c3304fdec8f6a68d12744b382ed257555cfbffaa036be4f5ebb7790c",
+    "AES_128_batch.py": "c135ac60f88ad7abbfb75663e119e78c30741ef3b907f1b544df697fccd06569",
+    "main_net.py": "cd6fb5d2e77d42d81f051849962e7ba95f9104d2dfdd3d08a05b9ac84ffd4f4f",
+    "test_something.ipynb": "1f1d0d36c92736e60c046424a48b3b005e22a73965ea3031f30c583c8a9865b6"
+  },
+  "chunk_size": 400,
+  "chunks": 10,
+  "diff": 128,
+  "final_mc": true,
+  "fractions": [
+    0.8,
+    0.1,
+    0.1
+  ],
+  "label_scheme": "exact_balance_per_chunk",
+  "n": 4000,
+  "negative_scheme": "independent random pt1, same key (original procedure)",
+  "nr": 2,
+  "resources": {
+    "disk_bytes": 132000,
+    "note": "RAM figure is a coarse upper-bound heuristic, not a measurement.",
+    "peak_ram_generation_bytes_rough": 231600
+  },
+  "rng": "numpy PCG64 SeedSequence",
+  "seed": 12345,
+  "split_plan": [
+    "train",
+    "train",
+    "train",
+    "train",
+    "train",
+    "train",
+    "train",
+    "train",
+    "val",
+    "test"
+  ]
+}

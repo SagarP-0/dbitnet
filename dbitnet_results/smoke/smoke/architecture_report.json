@@ -1,0 +1,128 @@
+[
+  {
+    "arch": "ndgohr",
+    "exp": "r2_2B",
+    "memory": {
+      "activation_bytes_per_sample_fp32_approx": 41604,
+      "activation_floats_per_sample_forward": 10401,
+      "adam_training_state_bytes_fp32_approx": 466704,
+      "note": "coarse estimate: sum of layer output sizes; training keeps activations for backprop",
+      "param_bytes_fp32": 119108
+    },
+    "params": {
+      "non_trainable": 608,
+      "total": 29777,
+      "trainable": 29169
+    },
+    "receptive_field": null
+  },
+  {
+    "arch": "ndgohr",
+    "exp": "r3_2B",
+    "memory": {
+      "activation_bytes_per_sample_fp32_approx": 41604,
+      "activation_floats_per_sample_forward": 10401,
+      "adam_training_state_bytes_fp32_approx": 466704,
+      "note": "coarse estimate: sum of layer output sizes; training keeps activations for backprop",
+      "param_bytes_fp32": 119108
+    },
+    "params": {
+      "non_trainable": 608,
+      "total": 29777,
+      "trainable": 29169
+    },
+    "receptive_field": null
+  },
+  {
+    "arch": "dbitnet",
+    "exp": "r2_2B",
+    "memory": {
+      "activation_bytes_per_sample_fp32_approx": 31748,
+      "activation_floats_per_sample_forward": 7937,
+      "adam_training_state_bytes_fp32_approx": 241680,
+      "note": "coarse estimate: sum of layer output sizes; training keeps activations for backprop",
+      "param_bytes_fp32": 62212
+    },
+    "params": {
+      "non_trainable": 448,
+      "total": 15553,
+      "trainable": 15105
+    },
+    "receptive_field": {
+      "layers_with_dilation_ge_seq_len": [
+        16
+      ],
+      "receptive_field": 63,
+      "rf_covers_sequence": true,
+      "sequence_length": 16
+    }
+  },
+  {
+    "arch": "dbitnet",
+    "exp": "r3_2B",
+    "memory": {
+      "activation_bytes_per_sample_fp32_approx": 31748,
+      "activation_floats_per_sample_forward": 7937,
+      "adam_training_state_bytes_fp32_approx": 241680,
+      "note": "coarse estimate: sum of layer output sizes; training keeps activations for backprop",
+      "param_bytes_fp32": 62212
+    },
+    "params": {
+      "non_trainable": 448,
+      "total": 15553,
+      "trainable": 15105
+    },
+    "receptive_field": {
+      "layers_with_dilation_ge_seq_len": [
+        16
+      ],
+      "receptive_field": 63,
+      "rf_covers_sequence": true,
+      "sequence_length": 16
+    }
+  },
+  {
+    "arch": "dbitnet_concat1",
+    "exp": "r2_2B",
+    "memory": {
+      "activation_bytes_per_sample_fp32_approx": 62468,
+      "activation_floats_per_sample_forward": 15617,
+      "adam_training_state_bytes_fp32_approx": 240144,
+      "note": "coarse estimate: sum of layer output sizes; training keeps activations for backprop",
+      "param_bytes_fp32": 61828
+    },
+    "params": {
+      "non_trainable": 448,
+      "total": 15457,
+      "trainable": 15009
+    },
+    "receptive_field": {
+      "layers_with_dilation_ge_seq_len": [],
+      "receptive_field": 63,
+      "rf_covers_sequence": true,
+      "sequence_length": 32
+    }
+  },
+  {
+    "arch": "dbitnet_concat1",
+    "exp": "r3_2B",
+    "memory": {
+      "activation_bytes_per_sample_fp32_approx": 62468,
+      "activation_floats_per_sample_forward": 15617,
+      "adam_training_state_bytes_fp32_approx": 240144,
+      "note": "coarse estimate: sum of layer output sizes; training keeps activations for backprop",
+      "param_bytes_fp32": 61828
+    },
+    "params": {
+      "non_trainable": 448,
+      "total": 15457,
+      "trainable": 15009
+    },
+    "receptive_field": {
+      "layers_with_dilation_ge_seq_len": [],
+      "receptive_field": 63,
+      "rf_covers_sequence": true,
+      "sequence_length": 32
+    }
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "arch": "ndgohr",
+  "best_epoch": 2,
+  "bytes": [
+    0,
+    1
+  ],
+  "dataset_dir": "/export/home/sagarp/aes_dbitnet_outputs/first_comparison/ndgohr/data/ds_r2_mc1_s12345_n4000_c400_3ca760b5",
+  "epochs_run": 2,
+  "inference": {
+    "latency_ms_median": 12.20100955106318,
+    "latency_ms_p95": 12.38486364018172,
+    "n_single_calls": 200,
+    "repeats": 5,
+    "throughput_batch": 400,
+    "throughput_samples_per_s": 22439.65497056706
+  },
+  "mode": "smoke",
+  "nr": 2,
+  "protocol": "controlled",
+  "run_id": "r2_2B__ndgohr__controlled__seed0__smoke",
+  "seed": 0,
+  "test": {
+    "accuracy": 0.5375,
+    "bce": 0.6963709678290015,
+    "eval_wall_s_incl_bit_encoding": 0.01890749391168356,
+    "fn": 40,
+    "fp": 145,
+    "mse": 0.25159398545451817,
+    "n": 400,
+    "params_non_trainable": 608,
+    "params_total": 29777,
+    "params_trainable": 29169,
+    "pct_random_above_real_median": 48.0,
+    "precision": 0.5245901639344263,
+    "threshold": 0.5,
+    "tn": 55,
+    "tnr": 0.275,
+    "tp": 160,
+    "tpr": 0.8
+  },
+  "train_time_s_per_epoch_mean": 1.632272791932337,
+  "train_time_s_total": 3.264545583864674
+}

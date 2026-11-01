@@ -1,0 +1,34 @@
+{
+  "arch_hash": "9cdefd5457fa68c4",
+  "arch_name": "ndgohr",
+  "batch_size": 250,
+  "best_metric": "val_loss",
+  "byte_idx": [
+    0,
+    1
+  ],
+  "early_stopping": null,
+  "epochs": 2,
+  "eval_batch": 10000,
+  "experiment": "r2_2B",
+  "final_mc": true,
+  "loss": "bce",
+  "lr": 0.001,
+  "min_lr": 1e-05,
+  "mode": "smoke",
+  "model": {
+    "arch": "ndgohr",
+    "bits": 16,
+    "input_mode": "channels2"
+  },
+  "nr": 2,
+  "params": {
+    "non_trainable": 608,
+    "total": 29777,
+    "trainable": 29169
+  },
+  "protocol": "controlled",
+  "schedule": "cosine",
+  "seed": 0,
+  "snapshot_every": 0
+}

@@ -1,0 +1,44 @@
+{
+  "arch": "ndgohr",
+  "best_epoch": 20,
+  "bytes": [
+    0,
+    1
+  ],
+  "dataset_dir": "/export/home/sagarp/aes_dbitnet_outputs/actual_test_v1/data/ds_r2_mc1_s12345_n1000000_c50000_7fcf39b3",
+  "epochs_run": 20,
+  "inference": {
+    "latency_ms_median": 12.041562469676137,
+    "latency_ms_p95": 12.113511201459914,
+    "n_single_calls": 200,
+    "repeats": 5,
+    "throughput_batch": 5000,
+    "throughput_samples_per_s": 389360.8875660974
+  },
+  "mode": "full",
+  "nr": 2,
+  "protocol": "ndgohr_original_recipe",
+  "run_id": "r2_2B__ndgohr__ndgohr_original_recipe__seed0__full",
+  "seed": 0,
+  "test": {
+    "accuracy": 0.99825,
+    "bce": 0.012774907252852134,
+    "eval_wall_s_incl_bit_encoding": 0.13982161809690297,
+    "fn": 0,
+    "fp": 175,
+    "mse": 0.0017547454835942114,
+    "n": 100000,
+    "params_non_trainable": 608,
+    "params_total": 29777,
+    "params_trainable": 29169,
+    "pct_random_above_real_median": 0.17600000000000002,
+    "precision": 0.9965122072745392,
+    "threshold": 0.5,
+    "tn": 49825,
+    "tnr": 0.9965,
+    "tp": 50000,
+    "tpr": 1.0
+  },
+  "train_time_s_per_epoch_mean": 1.3931062174378894,
+  "train_time_s_total": 27.86212434875779
+}

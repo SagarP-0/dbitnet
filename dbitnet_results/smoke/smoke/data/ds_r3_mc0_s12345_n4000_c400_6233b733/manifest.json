@@ -1,0 +1,70 @@
+{
+  "chunks": {
+    "0": {
+      "m": 400,
+      "sha256": "79ae2f360025712ca1c50e5037ddeccd96d50bca6fcb89626575984b482f0d54",
+      "split": "train"
+    },
+    "1": {
+      "m": 400,
+      "sha256": "65c4d30bfe28eb0eab444e7b5eaa4c79145d4c70adef44de1702c84062ab1bd2",
+      "split": "train"
+    },
+    "2": {
+      "m": 400,
+      "sha256": "808fddce5f3f78e6fba04f58281c887de5edda1023c9b4581f1d489f9a7a425b",
+      "split": "train"
+    },
+    "3": {
+      "m": 400,
+      "sha256": "3913df3360373916fcc4d415735779400bab63272628ee8b6359f318f10a25c7",
+      "split": "train"
+    },
+    "4": {
+      "m": 400,
+      "sha256": "cacd2e3e13d8e84fda1bb133d8d2abeddc1511683de8a220de0211ed631196ec",
+      "split": "train"
+    },
+    "5": {
+      "m": 400,
+      "sha256": "c0895364abea4d7a3abe27f226daae6a9678498c73ca8b240938202d6bf92db5",
+      "split": "train"
+    },
+    "6": {
+      "m": 400,
+      "sha256": "8ff39b09f5fe270288f7fbed54cf429bdb5e33c4829bc9023b1dc06f86aa6360",
+      "split": "train"
+    },
+    "7": {
+      "m": 400,
+      "sha256": "5340fac3814204bbc4e900ad8fe5e8dc45983bc70390e7f30ecb8bdd57d50a8f",
+      "split": "train"
+    },
+    "8": {
+      "m": 400,
+      "sha256": "95efd4475fbc7407de3f55ccbfb2527565dd62431ea448d11c725f8f4859e2cf",
+      "split": "val"
+    },
+    "9": {
+      "m": 400,
+      "sha256": "447d5709976267fe7d242499b4aa24f47ddfc2cb274e28a37c46ec891fe8b4d9",
+      "split": "test"
+    }
+  },
+  "config": {
+    "chunk_size": 400,
+    "diff": 128,
+    "final_mc": false,
+    "fractions": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "label_scheme": "exact_balance_per_chunk",
+    "n": 4000,
+    "negative_scheme": "independent random pt1, same key (original procedure)",
+    "nr": 3,
+    "rng": "numpy PCG64 SeedSequence",
+    "seed": 12345
+  }
+}

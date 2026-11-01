@@ -1,0 +1,120 @@
+{
+  "chunks": {
+    "0": {
+      "m": 50000,
+      "sha256": "8dfecff01a45a088f6e82b0605ced08d5d4b06e26cb546f20803acee971a546c",
+      "split": "train"
+    },
+    "1": {
+      "m": 50000,
+      "sha256": "4ee86ee67ae1b5c75593a04ae67c07237ef0f133a256aef34c1c03114020815d",
+      "split": "train"
+    },
+    "10": {
+      "m": 50000,
+      "sha256": "c444fe2dc0b88dc3f178d017fd554b3dd71c4a19249800068cab350f6ba832b7",
+      "split": "train"
+    },
+    "11": {
+      "m": 50000,
+      "sha256": "7e958c31807193f13ac93fc3d927247548347d744bff82e8774b3a954c9ed4c1",
+      "split": "train"
+    },
+    "12": {
+      "m": 50000,
+      "sha256": "a8f66fe0a66d1284ee7bc59237fd963f1b37ba29b3f0d6b6ea60f9c3c56bc270",
+      "split": "train"
+    },
+    "13": {
+      "m": 50000,
+      "sha256": "ed25a0cd3fa737155b297479e1ec41aee455659999c91b583574da5235f36a11",
+      "split": "train"
+    },
+    "14": {
+      "m": 50000,
+      "sha256": "c75aa2fbfab36185d7cd06f50d8bac4a170c07568eccc787a3722e2b68b9d9c5",
+      "split": "train"
+    },
+    "15": {
+      "m": 50000,
+      "sha256": "15828c040a942784fb890453e2cd3cfd974517c933cc29f3a06c66bb5bdbc10f",
+      "split": "train"
+    },
+    "16": {
+      "m": 50000,
+      "sha256": "14ea4b7ba2c2a4f280b3fe146935a805a0bdbb95ce9b8a24b3a551cf59427072",
+      "split": "val"
+    },
+    "17": {
+      "m": 50000,
+      "sha256": "6871578da83b99e24359bc10784c67679fbf9cf90fa4b690252d048d5149c4ac",
+      "split": "val"
+    },
+    "18": {
+      "m": 50000,
+      "sha256": "aa3a098313df6464cdb02a0e95e8cce022642bbf0b4bbff70a1bf6b5e8201b00",
+      "split": "test"
+    },
+    "19": {
+      "m": 50000,
+      "sha256": "11d364ee4114103760d6561957eb8db7be7e35fce1c057234ce7d4e21abf9698",
+      "split": "test"
+    },
+    "2": {
+      "m": 50000,
+      "sha256": "c7627d000f4e4769e99ad7b271799ac1484290a146678c50e71c85bd47863867",
+      "split": "train"
+    },
+    "3": {
+      "m": 50000,
+      "sha256": "94514020942f32b3adbba942d99c5cbbbb885dc4280a688a9cd3ed2e7c9a0cfc",
+      "split": "train"
+    },
+    "4": {
+      "m": 50000,
+      "sha256": "408a3e0addf00bd07beb3af1c94bc84259c27079910a0b78cb0c73d0efc4266e",
+      "split": "train"
+    },
+    "5": {
+      "m": 50000,
+      "sha256": "87b153aaa9020bd974d084a74ef23d61bede7c344b1bb25e4507986d605fbefd",
+      "split": "train"
+    },
+    "6": {
+      "m": 50000,
+      "sha256": "7a2fb8f2869d316099231eab645e1be9ce184b3453c4cba77d1f7ca8fe3bcedd",
+      "split": "train"
+    },
+    "7": {
+      "m": 50000,
+      "sha256": "551469780bce508cd61f4d10169a966b971c72131b080fe41467516f366247b1",
+      "split": "train"
+    },
+    "8": {
+      "m": 50000,
+      "sha256": "a660a5fd990de8264eb6a7fcbb50c7587a9f49769605672ea476818431d642e3",
+      "split": "train"
+    },
+    "9": {
+      "m": 50000,
+      "sha256": "8026da11a6d3c1e1eae4581ca546f44a527f5bce9501e2812d8ba7846c806473",
+      "split": "train"
+    }
+  },
+  "config": {
+    "chunk_size": 50000,
+    "diff": 128,
+    "final_mc": true,
+    "fractions": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "label_scheme": "exact_balance_per_chunk",
+    "n": 1000000,
+    "negative_scheme": "independent random pt1, same key (original procedure)",
+    "nr": 2,
+    "rng": "numpy PCG64 SeedSequence",
+    "seed": 12345
+  }
+}
