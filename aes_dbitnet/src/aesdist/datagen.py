@@ -32,11 +32,16 @@ def chunk_rng(seed, nr, final_mc, chunk_idx, stream=0):
     return np.random.Generator(np.random.PCG64(ss))
 
 
-def generate_chunk(aes, m, nr, final_mc, seed, chunk_idx, diff=DIFF, return_aux=False):
-    """Return (ct (m,2,16) uint8, y (m,) uint8[, aux]) for one chunk. Deterministic."""
+def generate_chunk(aes, m, nr, final_mc, seed, chunk_idx, diff=DIFF, return_aux=False, paired=False):
+    """Return (ct (m,2,16) uint8, y (m,) uint8[, aux]) for one chunk. Deterministic.
+
+    paired=True derives the random stream without final_mc, so the final_mc=True/False variants
+    share plaintexts, keys and labels and differ only in the cipher. diff never enters the stream,
+    so all differences of one (seed, nr) also share pt0, keys, labels and negative pt1.
+    """
     if m % 2:
         raise ValueError("chunk size must be even for exact balance")
-    rng = chunk_rng(seed, nr, final_mc, chunk_idx)
+    rng = chunk_rng(seed, nr, False if paired else final_mc, chunk_idx)
     y = np.zeros(m, dtype=np.uint8)
     y[: m // 2] = 1
     rng.shuffle(y)
@@ -94,13 +99,15 @@ def estimate_resources(n, chunk_size):
 class DatasetStore:
     """On-disk chunked dataset with manifest, integrity verification and selective regeneration."""
 
-    def __init__(self, root, nr, final_mc, n, chunk_size, seed, diff=DIFF, fractions=(0.8, 0.1, 0.1)):
+    def __init__(self, root, nr, final_mc, n, chunk_size, seed, diff=DIFF, fractions=(0.8, 0.1, 0.1), paired=False):
         if n % chunk_size:
             raise ValueError("n must be a multiple of chunk_size")
         self.cfg = dict(nr=int(nr), final_mc=bool(final_mc), n=int(n), chunk_size=int(chunk_size),
                         seed=int(seed), diff=int(diff), fractions=list(fractions),
                         label_scheme="exact_balance_per_chunk", rng="numpy PCG64 SeedSequence",
                         negative_scheme="independent random pt1, same key (original procedure)")
+        if paired:
+            self.cfg["paired_mc_stream"] = True   # absent otherwise, so existing dataset hashes are unchanged
         self.n_chunks = n // chunk_size
         self.splits = assign_splits(self.n_chunks, fractions)
         self.dir = Path(root) / f"ds_r{nr}_mc{int(bool(final_mc))}_s{seed}_n{n}_c{chunk_size}_{config_hash(self.cfg, 8)}"
@@ -159,7 +166,7 @@ class DatasetStore:
             if stop_after is not None and done_now >= stop_after:
                 break
             ct, y = generate_chunk(aes, self.cfg["chunk_size"], self.cfg["nr"], self.cfg["final_mc"],
-                                   self.cfg["seed"], k, self.cfg["diff"])
+                                   self.cfg["seed"], k, self.cfg["diff"], paired=self.cfg.get("paired_mc_stream", False))
             ctp, yp = self._paths(k)
             atomic_save_npy(ctp, ct)
             atomic_save_npy(yp, y)
@@ -168,6 +175,12 @@ class DatasetStore:
             done_now += 1
             log(f"[datagen] chunk {k + 1}/{self.n_chunks} written ({self.splits[k]})")
         return done_now
+
+    def purge(self):
+        """Delete chunk data (kept: manifest and metadata). Regeneration is deterministic."""
+        for k in range(self.n_chunks):
+            for p in self._paths(k):
+                p.unlink(missing_ok=True)
 
     def is_complete(self):
         return not self.verify(deep=False)

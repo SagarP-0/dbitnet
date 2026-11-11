@@ -14,7 +14,7 @@ scripts/run_experiment.py   non-interactive entry point (env-report | smoke | ge
 scripts/env_report.py       read-only package report for your conda env
 slurm/train_cpu.slurm       CPU job (placeholders must be filled)
 slurm/train_gpu_template.slurm   GPU TEMPLATE - conditional, no GPU syntax included
-tests/                      64 tests; docs/  baseline findings, dependency report
+tests/                      76 tests; docs/  baseline findings, dependency report
 ```
 Outputs (data, runs, results, smoke report) go only under `AESDIST_OUT_DIR` / `--out-dir`.
 The original NDGohr files are read from `NDGOHR_BASELINE_DIR` and never modified.
@@ -55,3 +55,29 @@ Not enabled. Use `slurm/train_gpu_template.slurm` only after obtaining the admin
 - Pretrained `.h5` handling is filename parsing + structural checks only; no pretrained model has been loaded.
 - The absolute-subkey attack is not implemented yet (only its validated candidate mapping); the difference-based WKRP
   engine exists and is tested on mechanics with a stand-in scorer and a tiny untrained-ish model.
+
+## All 256 input differences (DBitNet, 3-round AES, final MixColumns on/off)
+Definition: `P1 = P0 xor [d,0,...,0]`, d = 0..255, same key for both plaintexts; negatives follow the project protocol
+(P1 replaced by an independent random plaintext, same key). `enabled`/`disabled` = `final_mc` of `aes_encrypt`:
+`enabled`: ARK0; 2x[SB,SR,MC,ARK]; SB,SR,**MC**,ARK3. `disabled`: ARK0; 2x[SB,SR,MC,ARK]; SB,SR,ARK3 (standard final round).
+**Rounds 1-2 contain MixColumns in both variants**; removing MixColumns from all rounds is not implemented.
+Both variants share plaintexts, keys and labels (`paired_mc_stream`); all differences of one seed also share them.
+`--seed` drives data, init and shuffling. Settings: `all_differences:` in `config/experiments.yaml` (full: 1e6 pairs, 80/10/10,
+20 epochs, batch 5000, 16 bytes -> input (128,2), protocol `ndgohr_original_recipe` = MSE + cyclic LR; `--protocol controlled` selects BCE/cosine).
+Same results are also reported at a validation-calibrated threshold (as in run_diff.py); the primary threshold is 0.5.
+
+```bash
+# smoke (default mode, writes to ..._smoke); full needs --mode full --full-experiment
+python scripts/run_experiment.py --experiment dbitnet_all_differences --start 128 --end 128 --mixcolumns both --seed 0 --device cpu
+python scripts/run_experiment.py all-diffs --mode full --full-experiment --start 0 --end 255 --mixcolumns both --seed 0 --device gpu
+python scripts/run_experiment.py all-diffs --mode full --full-experiment --start 0 --end 63 --mixcolumns enabled   # slice for a job
+# resume = rerun the identical command (completed diffs skipped, partial ones resume from the last epoch)
+python scripts/run_experiment.py summarize-diffs --mode full        # JSON/CSV (+ plots if matplotlib is installed)
+```
+Options: `--purge-data` (delete chunks after a run; regenerated deterministically), `--force-unlock` (remove `.lock` left by a
+killed job), `--overwrite` (moves each selected diff dir aside and restarts it). Run disjoint ranges in parallel jobs; per-diff
+locks reject overlap. Exit codes: 0 ok, 1 some difference failed (others still ran), 3 interrupted (rerun to resume).
+Layout: `all_input_differences_3round/{mixcolumns_enabled,mixcolumns_disabled}/diff_XX/{result.json,latest.npz,best.npz,history.json,...}`,
+`data/`, `summaries/{mixcolumns_*.json,comparison.json,comparison.csv,plots/}`, `experiment_metadata.json`.
+A diff counts as done only if `result.json` parses, has its content hash and matches the run signature; otherwise it is set aside as `result.json.invalid-*`.
+Caveat: d=0 is a degenerate control (positive pairs have identical ciphertexts).

@@ -1,0 +1,79 @@
+{
+  "data": {
+    "chunk_size": 50000,
+    "diff": 242,
+    "final_mc": false,
+    "fractions": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "label_scheme": "exact_balance_per_chunk",
+    "n": 1000000,
+    "negative_scheme": "independent random pt1, same key (original procedure)",
+    "nr": 3,
+    "paired_mc_stream": true,
+    "rng": "numpy PCG64 SeedSequence",
+    "seed": 0
+  },
+  "signature": "3befb649d95b6a65",
+  "train": {
+    "arch_name": "dbitnet",
+    "batch_size": 5000,
+    "best_metric": "val_loss",
+    "byte_idx": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "diff": 242,
+    "early_stopping": null,
+    "epochs": 20,
+    "eval_batch": 10000,
+    "experiment": "alldiff",
+    "final_mc": false,
+    "loss": "mse",
+    "lr": 0.002,
+    "min_lr": 0.0001,
+    "mixcolumns": "disabled",
+    "mode": "full",
+    "model": {
+      "arch": "dbitnet",
+      "bits": 128,
+      "dense_units": 64,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "filters": 32,
+      "input_mode": "channels2",
+      "kernel": 3,
+      "n_layers": 5,
+      "pool": "gap",
+      "reg": 0.0,
+      "residual": false,
+      "second_dense": false
+    },
+    "nr": 3,
+    "protocol": "ndgohr_original_recipe",
+    "schedule": "cyclic",
+    "seed": 0,
+    "snapshot_every": 0
+  }
+}

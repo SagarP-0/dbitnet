@@ -1,0 +1,62 @@
+{
+  "batch_size": 5000,
+  "data_streams": "plaintexts, keys, labels shared by all differences and both variants for a given seed",
+  "dataset": {
+    "batch_size": 5000,
+    "chunk_size": 50000,
+    "epochs": 20,
+    "n": 1000000,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "difference_byte": 0,
+  "difference_definition": "P1 = P0 xor [d,0,...,0], d in 0..255; same key for both plaintexts",
+  "epochs": 20,
+  "fractions": [
+    0.8,
+    0.1,
+    0.1
+  ],
+  "loss": "mse",
+  "lr": 0.002,
+  "mode": "full",
+  "model": {
+    "arch": "dbitnet",
+    "bits": 128,
+    "dense_units": 64,
+    "dilations": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "filters": 32,
+    "input_mode": "channels2",
+    "kernel": 3,
+    "n_layers": 5,
+    "pool": "gap",
+    "reg": 0.0,
+    "residual": false,
+    "second_dense": false
+  },
+  "name": "dbitnet_all_differences",
+  "negative_pairs": "P1 replaced by an independent random plaintext under the same key (original procedure)",
+  "protocol": "ndgohr_original_recipe",
+  "rounds": 3,
+  "schedule": "cyclic",
+  "seed": 0,
+  "variants": {
+    "disabled": {
+      "final_mc": false,
+      "transforms": "ARK0; 2x[SB,SR,MC,ARK]; SB,SR,ARK3"
+    },
+    "enabled": {
+      "final_mc": true,
+      "transforms": "ARK0; 2x[SB,SR,MC,ARK]; SB,SR,MC,ARK3"
+    }
+  }
+}

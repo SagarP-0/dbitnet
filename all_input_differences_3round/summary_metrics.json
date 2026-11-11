@@ -1,0 +1,7652 @@
+{
+  "01": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51259,
+        "tpr": 0.5099,
+        "tnr": 0.51528
+      },
+      "test_calibrated": {
+        "accuracy": 0.51826,
+        "tpr": 0.85518,
+        "tnr": 0.18134
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49841,
+        "tpr": 0.3917,
+        "tnr": 0.60512
+      },
+      "test_calibrated": {
+        "accuracy": 0.4987,
+        "tpr": 0.25124,
+        "tnr": 0.74616
+      }
+    }
+  },
+  "02": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5132,
+        "tpr": 0.5649,
+        "tnr": 0.4615
+      },
+      "test_calibrated": {
+        "accuracy": 0.51912,
+        "tpr": 0.8041,
+        "tnr": 0.23414
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50149,
+        "tpr": 0.66696,
+        "tnr": 0.33602
+      },
+      "test_calibrated": {
+        "accuracy": 0.50035,
+        "tpr": 0.24432,
+        "tnr": 0.75638
+      }
+    }
+  },
+  "03": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51815,
+        "tpr": 0.639,
+        "tnr": 0.3973
+      },
+      "test_calibrated": {
+        "accuracy": 0.51955,
+        "tpr": 0.8569,
+        "tnr": 0.1822
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49711,
+        "tpr": 0.54368,
+        "tnr": 0.45054
+      },
+      "test_calibrated": {
+        "accuracy": 0.49754,
+        "tpr": 0.73144,
+        "tnr": 0.26364
+      }
+    }
+  },
+  "04": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51465,
+        "tpr": 0.62426,
+        "tnr": 0.40504
+      },
+      "test_calibrated": {
+        "accuracy": 0.51594,
+        "tpr": 0.85924,
+        "tnr": 0.17264
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49979,
+        "tpr": 0.75186,
+        "tnr": 0.24772
+      },
+      "test_calibrated": {
+        "accuracy": 0.50144,
+        "tpr": 0.0327,
+        "tnr": 0.97018
+      }
+    }
+  },
+  "05": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51492,
+        "tpr": 0.59894,
+        "tnr": 0.4309
+      },
+      "test_calibrated": {
+        "accuracy": 0.51799,
+        "tpr": 0.79988,
+        "tnr": 0.2361
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50025,
+        "tpr": 0.27972,
+        "tnr": 0.72078
+      },
+      "test_calibrated": {
+        "accuracy": 0.50045,
+        "tpr": 0.6589,
+        "tnr": 0.342
+      }
+    }
+  },
+  "06": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5151,
+        "tpr": 0.60476,
+        "tnr": 0.42544
+      },
+      "test_calibrated": {
+        "accuracy": 0.51677,
+        "tpr": 0.71396,
+        "tnr": 0.31958
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50017,
+        "tpr": 0.68568,
+        "tnr": 0.31466
+      },
+      "test_calibrated": {
+        "accuracy": 0.49971,
+        "tpr": 0.16284,
+        "tnr": 0.83658
+      }
+    }
+  },
+  "07": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51433,
+        "tpr": 0.51396,
+        "tnr": 0.5147
+      },
+      "test_calibrated": {
+        "accuracy": 0.51798,
+        "tpr": 0.87796,
+        "tnr": 0.158
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50035,
+        "tpr": 0.63676,
+        "tnr": 0.36394
+      },
+      "test_calibrated": {
+        "accuracy": 0.49979,
+        "tpr": 0.41794,
+        "tnr": 0.58164
+      }
+    }
+  },
+  "08": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51931,
+        "tpr": 0.76162,
+        "tnr": 0.277
+      },
+      "test_calibrated": {
+        "accuracy": 0.52087,
+        "tpr": 0.82732,
+        "tnr": 0.21442
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50143,
+        "tpr": 0.23586,
+        "tnr": 0.767
+      },
+      "test_calibrated": {
+        "accuracy": 0.5016,
+        "tpr": 0.7355,
+        "tnr": 0.2677
+      }
+    }
+  },
+  "09": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5138,
+        "tpr": 0.52388,
+        "tnr": 0.50372
+      },
+      "test_calibrated": {
+        "accuracy": 0.51857,
+        "tpr": 0.83352,
+        "tnr": 0.20362
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49959,
+        "tpr": 0.14522,
+        "tnr": 0.85396
+      },
+      "test_calibrated": {
+        "accuracy": 0.49979,
+        "tpr": 0.61138,
+        "tnr": 0.3882
+      }
+    }
+  },
+  "0A": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51188,
+        "tpr": 0.49626,
+        "tnr": 0.5275
+      },
+      "test_calibrated": {
+        "accuracy": 0.5167,
+        "tpr": 0.67866,
+        "tnr": 0.35474
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49893,
+        "tpr": 0.43064,
+        "tnr": 0.56722
+      },
+      "test_calibrated": {
+        "accuracy": 0.49803,
+        "tpr": 0.15352,
+        "tnr": 0.84254
+      }
+    }
+  },
+  "0B": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51588,
+        "tpr": 0.653,
+        "tnr": 0.37876
+      },
+      "test_calibrated": {
+        "accuracy": 0.51784,
+        "tpr": 0.7505,
+        "tnr": 0.28518
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.498,
+        "tpr": 0.454,
+        "tnr": 0.542
+      },
+      "test_calibrated": {
+        "accuracy": 0.49802,
+        "tpr": 0.16134,
+        "tnr": 0.8347
+      }
+    }
+  },
+  "0C": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51747,
+        "tpr": 0.65302,
+        "tnr": 0.38192
+      },
+      "test_calibrated": {
+        "accuracy": 0.5181,
+        "tpr": 0.89818,
+        "tnr": 0.13802
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50012,
+        "tpr": 0.75074,
+        "tnr": 0.2495
+      },
+      "test_calibrated": {
+        "accuracy": 0.50064,
+        "tpr": 0.78634,
+        "tnr": 0.21494
+      }
+    }
+  },
+  "0D": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51656,
+        "tpr": 0.62882,
+        "tnr": 0.4043
+      },
+      "test_calibrated": {
+        "accuracy": 0.5188,
+        "tpr": 0.87916,
+        "tnr": 0.15844
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49988,
+        "tpr": 0.45498,
+        "tnr": 0.54478
+      },
+      "test_calibrated": {
+        "accuracy": 0.49929,
+        "tpr": 0.16252,
+        "tnr": 0.83606
+      }
+    }
+  },
+  "0E": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51781,
+        "tpr": 0.61888,
+        "tnr": 0.41674
+      },
+      "test_calibrated": {
+        "accuracy": 0.51956,
+        "tpr": 0.7948,
+        "tnr": 0.24432
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50053,
+        "tpr": 0.57594,
+        "tnr": 0.42512
+      },
+      "test_calibrated": {
+        "accuracy": 0.50056,
+        "tpr": 0.521,
+        "tnr": 0.48012
+      }
+    }
+  },
+  "0F": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51834,
+        "tpr": 0.78816,
+        "tnr": 0.24852
+      },
+      "test_calibrated": {
+        "accuracy": 0.5184,
+        "tpr": 0.78302,
+        "tnr": 0.25378
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49878,
+        "tpr": 0.58168,
+        "tnr": 0.41588
+      },
+      "test_calibrated": {
+        "accuracy": 0.50131,
+        "tpr": 0.93212,
+        "tnr": 0.0705
+      }
+    }
+  },
+  "10": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51689,
+        "tpr": 0.67774,
+        "tnr": 0.35604
+      },
+      "test_calibrated": {
+        "accuracy": 0.51984,
+        "tpr": 0.86056,
+        "tnr": 0.17912
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49964,
+        "tpr": 0.37348,
+        "tnr": 0.6258
+      },
+      "test_calibrated": {
+        "accuracy": 0.49876,
+        "tpr": 0.34376,
+        "tnr": 0.65376
+      }
+    }
+  },
+  "11": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51165,
+        "tpr": 0.70286,
+        "tnr": 0.32044
+      },
+      "test_calibrated": {
+        "accuracy": 0.51496,
+        "tpr": 0.85126,
+        "tnr": 0.17866
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50083,
+        "tpr": 0.40288,
+        "tnr": 0.59878
+      },
+      "test_calibrated": {
+        "accuracy": 0.49838,
+        "tpr": 0.65274,
+        "tnr": 0.34402
+      }
+    }
+  },
+  "12": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51579,
+        "tpr": 0.69402,
+        "tnr": 0.33756
+      },
+      "test_calibrated": {
+        "accuracy": 0.51691,
+        "tpr": 0.8977,
+        "tnr": 0.13612
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50052,
+        "tpr": 0.22064,
+        "tnr": 0.7804
+      },
+      "test_calibrated": {
+        "accuracy": 0.50003,
+        "tpr": 0.97554,
+        "tnr": 0.02452
+      }
+    }
+  },
+  "13": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51623,
+        "tpr": 0.67674,
+        "tnr": 0.35572
+      },
+      "test_calibrated": {
+        "accuracy": 0.51929,
+        "tpr": 0.82642,
+        "tnr": 0.21216
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49854,
+        "tpr": 0.57256,
+        "tnr": 0.42452
+      },
+      "test_calibrated": {
+        "accuracy": 0.50032,
+        "tpr": 0.21564,
+        "tnr": 0.785
+      }
+    }
+  },
+  "14": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50951,
+        "tpr": 0.44322,
+        "tnr": 0.5758
+      },
+      "test_calibrated": {
+        "accuracy": 0.51836,
+        "tpr": 0.88166,
+        "tnr": 0.15506
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49683,
+        "tpr": 0.67062,
+        "tnr": 0.32304
+      },
+      "test_calibrated": {
+        "accuracy": 0.49877,
+        "tpr": 0.35256,
+        "tnr": 0.64498
+      }
+    }
+  },
+  "15": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51532,
+        "tpr": 0.51812,
+        "tnr": 0.51252
+      },
+      "test_calibrated": {
+        "accuracy": 0.52077,
+        "tpr": 0.84318,
+        "tnr": 0.19836
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49872,
+        "tpr": 0.38354,
+        "tnr": 0.6139
+      },
+      "test_calibrated": {
+        "accuracy": 0.49859,
+        "tpr": 0.9,
+        "tnr": 0.09718
+      }
+    }
+  },
+  "16": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51019,
+        "tpr": 0.51532,
+        "tnr": 0.50506
+      },
+      "test_calibrated": {
+        "accuracy": 0.51666,
+        "tpr": 0.75326,
+        "tnr": 0.28006
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.4982,
+        "tpr": 0.74082,
+        "tnr": 0.25558
+      },
+      "test_calibrated": {
+        "accuracy": 0.49809,
+        "tpr": 0.645,
+        "tnr": 0.35118
+      }
+    }
+  },
+  "17": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51995,
+        "tpr": 0.76802,
+        "tnr": 0.27188
+      },
+      "test_calibrated": {
+        "accuracy": 0.51965,
+        "tpr": 0.74612,
+        "tnr": 0.29318
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50029,
+        "tpr": 0.24288,
+        "tnr": 0.7577
+      },
+      "test_calibrated": {
+        "accuracy": 0.50173,
+        "tpr": 0.35052,
+        "tnr": 0.65294
+      }
+    }
+  },
+  "18": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51126,
+        "tpr": 0.54688,
+        "tnr": 0.47564
+      },
+      "test_calibrated": {
+        "accuracy": 0.51669,
+        "tpr": 0.84444,
+        "tnr": 0.18894
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49788,
+        "tpr": 0.83274,
+        "tnr": 0.16302
+      },
+      "test_calibrated": {
+        "accuracy": 0.49981,
+        "tpr": 0.07594,
+        "tnr": 0.92368
+      }
+    }
+  },
+  "19": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51632,
+        "tpr": 0.72048,
+        "tnr": 0.31216
+      },
+      "test_calibrated": {
+        "accuracy": 0.51849,
+        "tpr": 0.88952,
+        "tnr": 0.14746
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49856,
+        "tpr": 0.35306,
+        "tnr": 0.64406
+      },
+      "test_calibrated": {
+        "accuracy": 0.49924,
+        "tpr": 0.59906,
+        "tnr": 0.39942
+      }
+    }
+  },
+  "1A": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51079,
+        "tpr": 0.57878,
+        "tnr": 0.4428
+      },
+      "test_calibrated": {
+        "accuracy": 0.51553,
+        "tpr": 0.81206,
+        "tnr": 0.219
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49948,
+        "tpr": 0.5151,
+        "tnr": 0.48386
+      },
+      "test_calibrated": {
+        "accuracy": 0.49942,
+        "tpr": 0.0938,
+        "tnr": 0.90504
+      }
+    }
+  },
+  "1B": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5163,
+        "tpr": 0.6289,
+        "tnr": 0.4037
+      },
+      "test_calibrated": {
+        "accuracy": 0.51864,
+        "tpr": 0.81454,
+        "tnr": 0.22274
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50142,
+        "tpr": 0.25734,
+        "tnr": 0.7455
+      },
+      "test_calibrated": {
+        "accuracy": 0.50024,
+        "tpr": 0.03506,
+        "tnr": 0.96542
+      }
+    }
+  },
+  "1C": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51395,
+        "tpr": 0.54994,
+        "tnr": 0.47796
+      },
+      "test_calibrated": {
+        "accuracy": 0.51901,
+        "tpr": 0.83918,
+        "tnr": 0.19884
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49925,
+        "tpr": 0.72052,
+        "tnr": 0.27798
+      },
+      "test_calibrated": {
+        "accuracy": 0.498,
+        "tpr": 0.6213,
+        "tnr": 0.3747
+      }
+    }
+  },
+  "1D": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51427,
+        "tpr": 0.60444,
+        "tnr": 0.4241
+      },
+      "test_calibrated": {
+        "accuracy": 0.5191,
+        "tpr": 0.9019,
+        "tnr": 0.1363
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49961,
+        "tpr": 0.80664,
+        "tnr": 0.19258
+      },
+      "test_calibrated": {
+        "accuracy": 0.49881,
+        "tpr": 0.9428,
+        "tnr": 0.05482
+      }
+    }
+  },
+  "1E": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51498,
+        "tpr": 0.51182,
+        "tnr": 0.51814
+      },
+      "test_calibrated": {
+        "accuracy": 0.52021,
+        "tpr": 0.86726,
+        "tnr": 0.17316
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49964,
+        "tpr": 0.15032,
+        "tnr": 0.84896
+      },
+      "test_calibrated": {
+        "accuracy": 0.50063,
+        "tpr": 0.23136,
+        "tnr": 0.7699
+      }
+    }
+  },
+  "1F": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5176,
+        "tpr": 0.68042,
+        "tnr": 0.35478
+      },
+      "test_calibrated": {
+        "accuracy": 0.51817,
+        "tpr": 0.87534,
+        "tnr": 0.161
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49733,
+        "tpr": 0.40694,
+        "tnr": 0.58772
+      },
+      "test_calibrated": {
+        "accuracy": 0.49669,
+        "tpr": 0.85682,
+        "tnr": 0.13656
+      }
+    }
+  },
+  "20": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51734,
+        "tpr": 0.72516,
+        "tnr": 0.30952
+      },
+      "test_calibrated": {
+        "accuracy": 0.51836,
+        "tpr": 0.85112,
+        "tnr": 0.1856
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50218,
+        "tpr": 0.25208,
+        "tnr": 0.75228
+      },
+      "test_calibrated": {
+        "accuracy": 0.50315,
+        "tpr": 0.47336,
+        "tnr": 0.53294
+      }
+    }
+  },
+  "21": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51669,
+        "tpr": 0.53404,
+        "tnr": 0.49934
+      },
+      "test_calibrated": {
+        "accuracy": 0.5178,
+        "tpr": 0.71586,
+        "tnr": 0.31974
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5037,
+        "tpr": 0.53926,
+        "tnr": 0.46814
+      },
+      "test_calibrated": {
+        "accuracy": 0.50061,
+        "tpr": 0.09972,
+        "tnr": 0.9015
+      }
+    }
+  },
+  "22": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51244,
+        "tpr": 0.54202,
+        "tnr": 0.48286
+      },
+      "test_calibrated": {
+        "accuracy": 0.51897,
+        "tpr": 0.767,
+        "tnr": 0.27094
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49977,
+        "tpr": 0.43448,
+        "tnr": 0.56506
+      },
+      "test_calibrated": {
+        "accuracy": 0.50067,
+        "tpr": 0.50876,
+        "tnr": 0.49258
+      }
+    }
+  },
+  "23": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51532,
+        "tpr": 0.55244,
+        "tnr": 0.4782
+      },
+      "test_calibrated": {
+        "accuracy": 0.51643,
+        "tpr": 0.74836,
+        "tnr": 0.2845
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.4997,
+        "tpr": 0.87804,
+        "tnr": 0.12136
+      },
+      "test_calibrated": {
+        "accuracy": 0.49963,
+        "tpr": 0.82826,
+        "tnr": 0.171
+      }
+    }
+  },
+  "24": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.52056,
+        "tpr": 0.7989,
+        "tnr": 0.24222
+      },
+      "test_calibrated": {
+        "accuracy": 0.51916,
+        "tpr": 0.88066,
+        "tnr": 0.15766
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50071,
+        "tpr": 0.63522,
+        "tnr": 0.3662
+      },
+      "test_calibrated": {
+        "accuracy": 0.4999,
+        "tpr": 0.9492,
+        "tnr": 0.0506
+      }
+    }
+  },
+  "25": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5134,
+        "tpr": 0.49186,
+        "tnr": 0.53494
+      },
+      "test_calibrated": {
+        "accuracy": 0.51757,
+        "tpr": 0.7773,
+        "tnr": 0.25784
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50091,
+        "tpr": 0.71882,
+        "tnr": 0.283
+      },
+      "test_calibrated": {
+        "accuracy": 0.5003,
+        "tpr": 0.00982,
+        "tnr": 0.99078
+      }
+    }
+  },
+  "26": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51525,
+        "tpr": 0.5805,
+        "tnr": 0.45
+      },
+      "test_calibrated": {
+        "accuracy": 0.51934,
+        "tpr": 0.92092,
+        "tnr": 0.11776
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49976,
+        "tpr": 0.01514,
+        "tnr": 0.98438
+      },
+      "test_calibrated": {
+        "accuracy": 0.50074,
+        "tpr": 0.2479,
+        "tnr": 0.75358
+      }
+    }
+  },
+  "27": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51718,
+        "tpr": 0.64278,
+        "tnr": 0.39158
+      },
+      "test_calibrated": {
+        "accuracy": 0.52171,
+        "tpr": 0.82728,
+        "tnr": 0.21614
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50075,
+        "tpr": 0.51624,
+        "tnr": 0.48526
+      },
+      "test_calibrated": {
+        "accuracy": 0.50173,
+        "tpr": 0.6773,
+        "tnr": 0.32616
+      }
+    }
+  },
+  "28": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51862,
+        "tpr": 0.79494,
+        "tnr": 0.2423
+      },
+      "test_calibrated": {
+        "accuracy": 0.51837,
+        "tpr": 0.81862,
+        "tnr": 0.21812
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49976,
+        "tpr": 0.03248,
+        "tnr": 0.96704
+      },
+      "test_calibrated": {
+        "accuracy": 0.50231,
+        "tpr": 0.75872,
+        "tnr": 0.2459
+      }
+    }
+  },
+  "29": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51483,
+        "tpr": 0.54918,
+        "tnr": 0.48048
+      },
+      "test_calibrated": {
+        "accuracy": 0.51847,
+        "tpr": 0.76596,
+        "tnr": 0.27098
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50042,
+        "tpr": 0.68598,
+        "tnr": 0.31486
+      },
+      "test_calibrated": {
+        "accuracy": 0.49895,
+        "tpr": 0.951,
+        "tnr": 0.0469
+      }
+    }
+  },
+  "2A": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51408,
+        "tpr": 0.5473,
+        "tnr": 0.48086
+      },
+      "test_calibrated": {
+        "accuracy": 0.51864,
+        "tpr": 0.84676,
+        "tnr": 0.19052
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50233,
+        "tpr": 0.30014,
+        "tnr": 0.70452
+      },
+      "test_calibrated": {
+        "accuracy": 0.50205,
+        "tpr": 0.60654,
+        "tnr": 0.39756
+      }
+    }
+  },
+  "2B": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51362,
+        "tpr": 0.53924,
+        "tnr": 0.488
+      },
+      "test_calibrated": {
+        "accuracy": 0.51731,
+        "tpr": 0.7797,
+        "tnr": 0.25492
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49948,
+        "tpr": 0.56546,
+        "tnr": 0.4335
+      },
+      "test_calibrated": {
+        "accuracy": 0.50203,
+        "tpr": 0.70544,
+        "tnr": 0.29862
+      }
+    }
+  },
+  "2C": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51367,
+        "tpr": 0.50504,
+        "tnr": 0.5223
+      },
+      "test_calibrated": {
+        "accuracy": 0.51663,
+        "tpr": 0.87608,
+        "tnr": 0.15718
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50159,
+        "tpr": 0.68142,
+        "tnr": 0.32176
+      },
+      "test_calibrated": {
+        "accuracy": 0.5003,
+        "tpr": 0.15148,
+        "tnr": 0.84912
+      }
+    }
+  },
+  "2D": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51528,
+        "tpr": 0.6161,
+        "tnr": 0.41446
+      },
+      "test_calibrated": {
+        "accuracy": 0.51563,
+        "tpr": 0.80512,
+        "tnr": 0.22614
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50035,
+        "tpr": 0.40026,
+        "tnr": 0.60044
+      },
+      "test_calibrated": {
+        "accuracy": 0.50068,
+        "tpr": 0.895,
+        "tnr": 0.10636
+      }
+    }
+  },
+  "2E": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51845,
+        "tpr": 0.5471,
+        "tnr": 0.4898
+      },
+      "test_calibrated": {
+        "accuracy": 0.52204,
+        "tpr": 0.8206,
+        "tnr": 0.22348
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49997,
+        "tpr": 0.87078,
+        "tnr": 0.12916
+      },
+      "test_calibrated": {
+        "accuracy": 0.49931,
+        "tpr": 0.57376,
+        "tnr": 0.42486
+      }
+    }
+  },
+  "2F": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51593,
+        "tpr": 0.56764,
+        "tnr": 0.46422
+      },
+      "test_calibrated": {
+        "accuracy": 0.51872,
+        "tpr": 0.87294,
+        "tnr": 0.1645
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50017,
+        "tpr": 0.31106,
+        "tnr": 0.68928
+      },
+      "test_calibrated": {
+        "accuracy": 0.5012,
+        "tpr": 0.89344,
+        "tnr": 0.10896
+      }
+    }
+  },
+  "30": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51336,
+        "tpr": 0.52354,
+        "tnr": 0.50318
+      },
+      "test_calibrated": {
+        "accuracy": 0.5203,
+        "tpr": 0.76912,
+        "tnr": 0.27148
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50055,
+        "tpr": 0.49832,
+        "tnr": 0.50278
+      },
+      "test_calibrated": {
+        "accuracy": 0.50138,
+        "tpr": 0.33726,
+        "tnr": 0.6655
+      }
+    }
+  },
+  "31": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51575,
+        "tpr": 0.7039,
+        "tnr": 0.3276
+      },
+      "test_calibrated": {
+        "accuracy": 0.51796,
+        "tpr": 0.86172,
+        "tnr": 0.1742
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50089,
+        "tpr": 0.81216,
+        "tnr": 0.18962
+      },
+      "test_calibrated": {
+        "accuracy": 0.50045,
+        "tpr": 0.69656,
+        "tnr": 0.30434
+      }
+    }
+  },
+  "32": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51707,
+        "tpr": 0.72286,
+        "tnr": 0.31128
+      },
+      "test_calibrated": {
+        "accuracy": 0.51804,
+        "tpr": 0.86722,
+        "tnr": 0.16886
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50227,
+        "tpr": 0.61204,
+        "tnr": 0.3925
+      },
+      "test_calibrated": {
+        "accuracy": 0.50005,
+        "tpr": 0.3712,
+        "tnr": 0.6289
+      }
+    }
+  },
+  "33": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51379,
+        "tpr": 0.58042,
+        "tnr": 0.44716
+      },
+      "test_calibrated": {
+        "accuracy": 0.51729,
+        "tpr": 0.77576,
+        "tnr": 0.25882
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50026,
+        "tpr": 0.38738,
+        "tnr": 0.61314
+      },
+      "test_calibrated": {
+        "accuracy": 0.50213,
+        "tpr": 0.74488,
+        "tnr": 0.25938
+      }
+    }
+  },
+  "34": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51871,
+        "tpr": 0.65028,
+        "tnr": 0.38714
+      },
+      "test_calibrated": {
+        "accuracy": 0.51828,
+        "tpr": 0.83438,
+        "tnr": 0.20218
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50165,
+        "tpr": 0.50496,
+        "tnr": 0.49834
+      },
+      "test_calibrated": {
+        "accuracy": 0.49994,
+        "tpr": 0.87798,
+        "tnr": 0.1219
+      }
+    }
+  },
+  "35": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51437,
+        "tpr": 0.58008,
+        "tnr": 0.44866
+      },
+      "test_calibrated": {
+        "accuracy": 0.51891,
+        "tpr": 0.76486,
+        "tnr": 0.27296
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50032,
+        "tpr": 0.52392,
+        "tnr": 0.47672
+      },
+      "test_calibrated": {
+        "accuracy": 0.49988,
+        "tpr": 0.6083,
+        "tnr": 0.39146
+      }
+    }
+  },
+  "36": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51509,
+        "tpr": 0.5434,
+        "tnr": 0.48678
+      },
+      "test_calibrated": {
+        "accuracy": 0.51933,
+        "tpr": 0.80266,
+        "tnr": 0.236
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49907,
+        "tpr": 0.30036,
+        "tnr": 0.69778
+      },
+      "test_calibrated": {
+        "accuracy": 0.49841,
+        "tpr": 0.07742,
+        "tnr": 0.9194
+      }
+    }
+  },
+  "37": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51279,
+        "tpr": 0.49586,
+        "tnr": 0.52972
+      },
+      "test_calibrated": {
+        "accuracy": 0.51982,
+        "tpr": 0.7385,
+        "tnr": 0.30114
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49798,
+        "tpr": 0.56042,
+        "tnr": 0.43554
+      },
+      "test_calibrated": {
+        "accuracy": 0.50167,
+        "tpr": 0.35684,
+        "tnr": 0.6465
+      }
+    }
+  },
+  "38": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51593,
+        "tpr": 0.65484,
+        "tnr": 0.37702
+      },
+      "test_calibrated": {
+        "accuracy": 0.51869,
+        "tpr": 0.8556,
+        "tnr": 0.18178
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50241,
+        "tpr": 0.7618,
+        "tnr": 0.24302
+      },
+      "test_calibrated": {
+        "accuracy": 0.5025,
+        "tpr": 0.21962,
+        "tnr": 0.78538
+      }
+    }
+  },
+  "39": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51662,
+        "tpr": 0.72082,
+        "tnr": 0.31242
+      },
+      "test_calibrated": {
+        "accuracy": 0.51782,
+        "tpr": 0.78774,
+        "tnr": 0.2479
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.4959,
+        "tpr": 0.58628,
+        "tnr": 0.40552
+      },
+      "test_calibrated": {
+        "accuracy": 0.49922,
+        "tpr": 0.07432,
+        "tnr": 0.92412
+      }
+    }
+  },
+  "3A": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51556,
+        "tpr": 0.63834,
+        "tnr": 0.39278
+      },
+      "test_calibrated": {
+        "accuracy": 0.51804,
+        "tpr": 0.89486,
+        "tnr": 0.14122
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50392,
+        "tpr": 0.20076,
+        "tnr": 0.80708
+      },
+      "test_calibrated": {
+        "accuracy": 0.50232,
+        "tpr": 0.84554,
+        "tnr": 0.1591
+      }
+    }
+  },
+  "3B": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5115,
+        "tpr": 0.38198,
+        "tnr": 0.64102
+      },
+      "test_calibrated": {
+        "accuracy": 0.51656,
+        "tpr": 0.68996,
+        "tnr": 0.34316
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50059,
+        "tpr": 0.83592,
+        "tnr": 0.16526
+      },
+      "test_calibrated": {
+        "accuracy": 0.49969,
+        "tpr": 0.56958,
+        "tnr": 0.4298
+      }
+    }
+  },
+  "3C": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51719,
+        "tpr": 0.7077,
+        "tnr": 0.32668
+      },
+      "test_calibrated": {
+        "accuracy": 0.51889,
+        "tpr": 0.83174,
+        "tnr": 0.20604
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50127,
+        "tpr": 0.0706,
+        "tnr": 0.93194
+      },
+      "test_calibrated": {
+        "accuracy": 0.50066,
+        "tpr": 0.30064,
+        "tnr": 0.70068
+      }
+    }
+  },
+  "3D": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51414,
+        "tpr": 0.55776,
+        "tnr": 0.47052
+      },
+      "test_calibrated": {
+        "accuracy": 0.51651,
+        "tpr": 0.8272,
+        "tnr": 0.20582
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.4998,
+        "tpr": 0.27262,
+        "tnr": 0.72698
+      },
+      "test_calibrated": {
+        "accuracy": 0.5013,
+        "tpr": 0.59372,
+        "tnr": 0.40888
+      }
+    }
+  },
+  "3E": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51714,
+        "tpr": 0.64592,
+        "tnr": 0.38836
+      },
+      "test_calibrated": {
+        "accuracy": 0.51892,
+        "tpr": 0.72294,
+        "tnr": 0.3149
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50038,
+        "tpr": 0.28846,
+        "tnr": 0.7123
+      },
+      "test_calibrated": {
+        "accuracy": 0.49961,
+        "tpr": 0.82346,
+        "tnr": 0.17576
+      }
+    }
+  },
+  "3F": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51194,
+        "tpr": 0.52226,
+        "tnr": 0.50162
+      },
+      "test_calibrated": {
+        "accuracy": 0.51645,
+        "tpr": 0.72134,
+        "tnr": 0.31156
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49975,
+        "tpr": 0.24712,
+        "tnr": 0.75238
+      },
+      "test_calibrated": {
+        "accuracy": 0.50017,
+        "tpr": 0.3165,
+        "tnr": 0.68384
+      }
+    }
+  },
+  "40": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51372,
+        "tpr": 0.58626,
+        "tnr": 0.44118
+      },
+      "test_calibrated": {
+        "accuracy": 0.51488,
+        "tpr": 0.67302,
+        "tnr": 0.35674
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50153,
+        "tpr": 0.11054,
+        "tnr": 0.89252
+      },
+      "test_calibrated": {
+        "accuracy": 0.50257,
+        "tpr": 0.42534,
+        "tnr": 0.5798
+      }
+    }
+  },
+  "41": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51399,
+        "tpr": 0.54496,
+        "tnr": 0.48302
+      },
+      "test_calibrated": {
+        "accuracy": 0.51713,
+        "tpr": 0.76558,
+        "tnr": 0.26868
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5017,
+        "tpr": 0.7938,
+        "tnr": 0.2096
+      },
+      "test_calibrated": {
+        "accuracy": 0.50099,
+        "tpr": 0.84808,
+        "tnr": 0.1539
+      }
+    }
+  },
+  "42": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51143,
+        "tpr": 0.6475,
+        "tnr": 0.37536
+      },
+      "test_calibrated": {
+        "accuracy": 0.51664,
+        "tpr": 0.88172,
+        "tnr": 0.15156
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49918,
+        "tpr": 0.38218,
+        "tnr": 0.61618
+      },
+      "test_calibrated": {
+        "accuracy": 0.49807,
+        "tpr": 0.32902,
+        "tnr": 0.66712
+      }
+    }
+  },
+  "43": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5133,
+        "tpr": 0.5631,
+        "tnr": 0.4635
+      },
+      "test_calibrated": {
+        "accuracy": 0.51848,
+        "tpr": 0.7954,
+        "tnr": 0.24156
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50188,
+        "tpr": 0.77754,
+        "tnr": 0.22622
+      },
+      "test_calibrated": {
+        "accuracy": 0.49819,
+        "tpr": 0.1017,
+        "tnr": 0.89468
+      }
+    }
+  },
+  "44": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51737,
+        "tpr": 0.54686,
+        "tnr": 0.48788
+      },
+      "test_calibrated": {
+        "accuracy": 0.52129,
+        "tpr": 0.88556,
+        "tnr": 0.15702
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50171,
+        "tpr": 0.79044,
+        "tnr": 0.21298
+      },
+      "test_calibrated": {
+        "accuracy": 0.50134,
+        "tpr": 0.8036,
+        "tnr": 0.19908
+      }
+    }
+  },
+  "45": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51618,
+        "tpr": 0.66058,
+        "tnr": 0.37178
+      },
+      "test_calibrated": {
+        "accuracy": 0.51784,
+        "tpr": 0.88672,
+        "tnr": 0.14896
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50076,
+        "tpr": 0.70238,
+        "tnr": 0.29914
+      },
+      "test_calibrated": {
+        "accuracy": 0.50126,
+        "tpr": 0.74392,
+        "tnr": 0.2586
+      }
+    }
+  },
+  "46": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51632,
+        "tpr": 0.52262,
+        "tnr": 0.51002
+      },
+      "test_calibrated": {
+        "accuracy": 0.51814,
+        "tpr": 0.74486,
+        "tnr": 0.29142
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49891,
+        "tpr": 0.57106,
+        "tnr": 0.42676
+      },
+      "test_calibrated": {
+        "accuracy": 0.50082,
+        "tpr": 0.08408,
+        "tnr": 0.91756
+      }
+    }
+  },
+  "47": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51278,
+        "tpr": 0.55726,
+        "tnr": 0.4683
+      },
+      "test_calibrated": {
+        "accuracy": 0.51747,
+        "tpr": 0.8324,
+        "tnr": 0.20254
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50012,
+        "tpr": 0.63232,
+        "tnr": 0.36792
+      },
+      "test_calibrated": {
+        "accuracy": 0.49885,
+        "tpr": 0.80046,
+        "tnr": 0.19724
+      }
+    }
+  },
+  "48": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50704,
+        "tpr": 0.25316,
+        "tnr": 0.76092
+      },
+      "test_calibrated": {
+        "accuracy": 0.51774,
+        "tpr": 0.85322,
+        "tnr": 0.18226
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50073,
+        "tpr": 0.16702,
+        "tnr": 0.83444
+      },
+      "test_calibrated": {
+        "accuracy": 0.50364,
+        "tpr": 0.52286,
+        "tnr": 0.48442
+      }
+    }
+  },
+  "49": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51485,
+        "tpr": 0.55082,
+        "tnr": 0.47888
+      },
+      "test_calibrated": {
+        "accuracy": 0.51328,
+        "tpr": 0.73074,
+        "tnr": 0.29582
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49855,
+        "tpr": 0.22168,
+        "tnr": 0.77542
+      },
+      "test_calibrated": {
+        "accuracy": 0.49906,
+        "tpr": 0.37142,
+        "tnr": 0.6267
+      }
+    }
+  },
+  "4A": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5138,
+        "tpr": 0.54556,
+        "tnr": 0.48204
+      },
+      "test_calibrated": {
+        "accuracy": 0.51807,
+        "tpr": 0.85428,
+        "tnr": 0.18186
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49959,
+        "tpr": 0.6939,
+        "tnr": 0.30528
+      },
+      "test_calibrated": {
+        "accuracy": 0.50117,
+        "tpr": 0.52966,
+        "tnr": 0.47268
+      }
+    }
+  },
+  "4B": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51448,
+        "tpr": 0.67,
+        "tnr": 0.35896
+      },
+      "test_calibrated": {
+        "accuracy": 0.51579,
+        "tpr": 0.81626,
+        "tnr": 0.21532
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50138,
+        "tpr": 0.49004,
+        "tnr": 0.51272
+      },
+      "test_calibrated": {
+        "accuracy": 0.50018,
+        "tpr": 0.61452,
+        "tnr": 0.38584
+      }
+    }
+  },
+  "4C": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51561,
+        "tpr": 0.71278,
+        "tnr": 0.31844
+      },
+      "test_calibrated": {
+        "accuracy": 0.51757,
+        "tpr": 0.86018,
+        "tnr": 0.17496
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50181,
+        "tpr": 0.12716,
+        "tnr": 0.87646
+      },
+      "test_calibrated": {
+        "accuracy": 0.50201,
+        "tpr": 0.34482,
+        "tnr": 0.6592
+      }
+    }
+  },
+  "4D": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51666,
+        "tpr": 0.67948,
+        "tnr": 0.35384
+      },
+      "test_calibrated": {
+        "accuracy": 0.51798,
+        "tpr": 0.80494,
+        "tnr": 0.23102
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49885,
+        "tpr": 0.76824,
+        "tnr": 0.22946
+      },
+      "test_calibrated": {
+        "accuracy": 0.49948,
+        "tpr": 0.52092,
+        "tnr": 0.47804
+      }
+    }
+  },
+  "4E": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51862,
+        "tpr": 0.75398,
+        "tnr": 0.28326
+      },
+      "test_calibrated": {
+        "accuracy": 0.51821,
+        "tpr": 0.78554,
+        "tnr": 0.25088
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49989,
+        "tpr": 0.6467,
+        "tnr": 0.35308
+      },
+      "test_calibrated": {
+        "accuracy": 0.49893,
+        "tpr": 0.52146,
+        "tnr": 0.4764
+      }
+    }
+  },
+  "4F": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51421,
+        "tpr": 0.62364,
+        "tnr": 0.40478
+      },
+      "test_calibrated": {
+        "accuracy": 0.51655,
+        "tpr": 0.8532,
+        "tnr": 0.1799
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49769,
+        "tpr": 0.12574,
+        "tnr": 0.86964
+      },
+      "test_calibrated": {
+        "accuracy": 0.49737,
+        "tpr": 0.24424,
+        "tnr": 0.7505
+      }
+    }
+  },
+  "50": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51612,
+        "tpr": 0.56126,
+        "tnr": 0.47098
+      },
+      "test_calibrated": {
+        "accuracy": 0.519,
+        "tpr": 0.88212,
+        "tnr": 0.15588
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50033,
+        "tpr": 0.82328,
+        "tnr": 0.17738
+      },
+      "test_calibrated": {
+        "accuracy": 0.50159,
+        "tpr": 0.48692,
+        "tnr": 0.51626
+      }
+    }
+  },
+  "51": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51751,
+        "tpr": 0.69416,
+        "tnr": 0.34086
+      },
+      "test_calibrated": {
+        "accuracy": 0.51831,
+        "tpr": 0.7953,
+        "tnr": 0.24132
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50098,
+        "tpr": 0.1626,
+        "tnr": 0.83936
+      },
+      "test_calibrated": {
+        "accuracy": 0.49976,
+        "tpr": 0.54038,
+        "tnr": 0.45914
+      }
+    }
+  },
+  "52": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51565,
+        "tpr": 0.62212,
+        "tnr": 0.40918
+      },
+      "test_calibrated": {
+        "accuracy": 0.51855,
+        "tpr": 0.77008,
+        "tnr": 0.26702
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49951,
+        "tpr": 0.78898,
+        "tnr": 0.21004
+      },
+      "test_calibrated": {
+        "accuracy": 0.50164,
+        "tpr": 0.60036,
+        "tnr": 0.40292
+      }
+    }
+  },
+  "53": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51618,
+        "tpr": 0.73172,
+        "tnr": 0.30064
+      },
+      "test_calibrated": {
+        "accuracy": 0.51752,
+        "tpr": 0.8833,
+        "tnr": 0.15174
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50052,
+        "tpr": 0.1914,
+        "tnr": 0.80964
+      },
+      "test_calibrated": {
+        "accuracy": 0.49969,
+        "tpr": 0.05014,
+        "tnr": 0.94924
+      }
+    }
+  },
+  "54": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50855,
+        "tpr": 0.52132,
+        "tnr": 0.49578
+      },
+      "test_calibrated": {
+        "accuracy": 0.51432,
+        "tpr": 0.8248,
+        "tnr": 0.20384
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50028,
+        "tpr": 0.28422,
+        "tnr": 0.71634
+      },
+      "test_calibrated": {
+        "accuracy": 0.50207,
+        "tpr": 0.39652,
+        "tnr": 0.60762
+      }
+    }
+  },
+  "55": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51325,
+        "tpr": 0.57818,
+        "tnr": 0.44832
+      },
+      "test_calibrated": {
+        "accuracy": 0.5186,
+        "tpr": 0.77788,
+        "tnr": 0.25932
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49922,
+        "tpr": 0.5374,
+        "tnr": 0.46104
+      },
+      "test_calibrated": {
+        "accuracy": 0.50028,
+        "tpr": 0.70554,
+        "tnr": 0.29502
+      }
+    }
+  },
+  "56": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51523,
+        "tpr": 0.67696,
+        "tnr": 0.3535
+      },
+      "test_calibrated": {
+        "accuracy": 0.51887,
+        "tpr": 0.87594,
+        "tnr": 0.1618
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50252,
+        "tpr": 0.74966,
+        "tnr": 0.25538
+      },
+      "test_calibrated": {
+        "accuracy": 0.50162,
+        "tpr": 0.8622,
+        "tnr": 0.14104
+      }
+    }
+  },
+  "57": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51361,
+        "tpr": 0.62322,
+        "tnr": 0.404
+      },
+      "test_calibrated": {
+        "accuracy": 0.51564,
+        "tpr": 0.74702,
+        "tnr": 0.28426
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49902,
+        "tpr": 0.78586,
+        "tnr": 0.21218
+      },
+      "test_calibrated": {
+        "accuracy": 0.49908,
+        "tpr": 0.1488,
+        "tnr": 0.84936
+      }
+    }
+  },
+  "58": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51858,
+        "tpr": 0.76594,
+        "tnr": 0.27122
+      },
+      "test_calibrated": {
+        "accuracy": 0.51879,
+        "tpr": 0.84708,
+        "tnr": 0.1905
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49998,
+        "tpr": 0.85986,
+        "tnr": 0.1401
+      },
+      "test_calibrated": {
+        "accuracy": 0.49994,
+        "tpr": 0.8535,
+        "tnr": 0.14638
+      }
+    }
+  },
+  "59": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51983,
+        "tpr": 0.7657,
+        "tnr": 0.27396
+      },
+      "test_calibrated": {
+        "accuracy": 0.51946,
+        "tpr": 0.81964,
+        "tnr": 0.21928
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49754,
+        "tpr": 0.54794,
+        "tnr": 0.44714
+      },
+      "test_calibrated": {
+        "accuracy": 0.49668,
+        "tpr": 0.30222,
+        "tnr": 0.69114
+      }
+    }
+  },
+  "5A": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51581,
+        "tpr": 0.67832,
+        "tnr": 0.3533
+      },
+      "test_calibrated": {
+        "accuracy": 0.5194,
+        "tpr": 0.87924,
+        "tnr": 0.15956
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50014,
+        "tpr": 0.47324,
+        "tnr": 0.52704
+      },
+      "test_calibrated": {
+        "accuracy": 0.49924,
+        "tpr": 0.40686,
+        "tnr": 0.59162
+      }
+    }
+  },
+  "5B": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5159,
+        "tpr": 0.68336,
+        "tnr": 0.34844
+      },
+      "test_calibrated": {
+        "accuracy": 0.51696,
+        "tpr": 0.81522,
+        "tnr": 0.2187
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50023,
+        "tpr": 0.45612,
+        "tnr": 0.54434
+      },
+      "test_calibrated": {
+        "accuracy": 0.50124,
+        "tpr": 0.53734,
+        "tnr": 0.46514
+      }
+    }
+  },
+  "5C": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51525,
+        "tpr": 0.6257,
+        "tnr": 0.4048
+      },
+      "test_calibrated": {
+        "accuracy": 0.51739,
+        "tpr": 0.85656,
+        "tnr": 0.17822
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50024,
+        "tpr": 0.3411,
+        "tnr": 0.65938
+      },
+      "test_calibrated": {
+        "accuracy": 0.50146,
+        "tpr": 0.21014,
+        "tnr": 0.79278
+      }
+    }
+  },
+  "5D": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51473,
+        "tpr": 0.59746,
+        "tnr": 0.432
+      },
+      "test_calibrated": {
+        "accuracy": 0.51954,
+        "tpr": 0.81128,
+        "tnr": 0.2278
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50002,
+        "tpr": 0.83598,
+        "tnr": 0.16406
+      },
+      "test_calibrated": {
+        "accuracy": 0.50055,
+        "tpr": 0.26054,
+        "tnr": 0.74056
+      }
+    }
+  },
+  "5E": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51097,
+        "tpr": 0.55288,
+        "tnr": 0.46906
+      },
+      "test_calibrated": {
+        "accuracy": 0.51547,
+        "tpr": 0.89454,
+        "tnr": 0.1364
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49906,
+        "tpr": 0.77394,
+        "tnr": 0.22418
+      },
+      "test_calibrated": {
+        "accuracy": 0.49909,
+        "tpr": 0.16502,
+        "tnr": 0.83316
+      }
+    }
+  },
+  "5F": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51648,
+        "tpr": 0.6746,
+        "tnr": 0.35836
+      },
+      "test_calibrated": {
+        "accuracy": 0.51737,
+        "tpr": 0.83392,
+        "tnr": 0.20082
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50114,
+        "tpr": 0.73616,
+        "tnr": 0.26612
+      },
+      "test_calibrated": {
+        "accuracy": 0.50123,
+        "tpr": 0.73716,
+        "tnr": 0.2653
+      }
+    }
+  },
+  "60": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51457,
+        "tpr": 0.59374,
+        "tnr": 0.4354
+      },
+      "test_calibrated": {
+        "accuracy": 0.51696,
+        "tpr": 0.86714,
+        "tnr": 0.16678
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50124,
+        "tpr": 0.51772,
+        "tnr": 0.48476
+      },
+      "test_calibrated": {
+        "accuracy": 0.50052,
+        "tpr": 0.5565,
+        "tnr": 0.44454
+      }
+    }
+  },
+  "61": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51771,
+        "tpr": 0.66856,
+        "tnr": 0.36686
+      },
+      "test_calibrated": {
+        "accuracy": 0.51885,
+        "tpr": 0.8177,
+        "tnr": 0.22
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5003,
+        "tpr": 0.5919,
+        "tnr": 0.4087
+      },
+      "test_calibrated": {
+        "accuracy": 0.49998,
+        "tpr": 0.42438,
+        "tnr": 0.57558
+      }
+    }
+  },
+  "62": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51526,
+        "tpr": 0.57168,
+        "tnr": 0.45884
+      },
+      "test_calibrated": {
+        "accuracy": 0.51996,
+        "tpr": 0.85206,
+        "tnr": 0.18786
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50095,
+        "tpr": 0.72016,
+        "tnr": 0.28174
+      },
+      "test_calibrated": {
+        "accuracy": 0.50167,
+        "tpr": 0.71076,
+        "tnr": 0.29258
+      }
+    }
+  },
+  "63": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51169,
+        "tpr": 0.43988,
+        "tnr": 0.5835
+      },
+      "test_calibrated": {
+        "accuracy": 0.51866,
+        "tpr": 0.90004,
+        "tnr": 0.13728
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5,
+        "tpr": 1.0,
+        "tnr": 0.0
+      },
+      "test_calibrated": {
+        "accuracy": 0.49977,
+        "tpr": 0.8296,
+        "tnr": 0.16994
+      }
+    }
+  },
+  "64": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51457,
+        "tpr": 0.70216,
+        "tnr": 0.32698
+      },
+      "test_calibrated": {
+        "accuracy": 0.517,
+        "tpr": 0.80532,
+        "tnr": 0.22868
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50078,
+        "tpr": 0.54024,
+        "tnr": 0.46132
+      },
+      "test_calibrated": {
+        "accuracy": 0.49868,
+        "tpr": 0.91948,
+        "tnr": 0.07788
+      }
+    }
+  },
+  "65": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51683,
+        "tpr": 0.63768,
+        "tnr": 0.39598
+      },
+      "test_calibrated": {
+        "accuracy": 0.5171,
+        "tpr": 0.82196,
+        "tnr": 0.21224
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49844,
+        "tpr": 0.88222,
+        "tnr": 0.11466
+      },
+      "test_calibrated": {
+        "accuracy": 0.50006,
+        "tpr": 0.28376,
+        "tnr": 0.71636
+      }
+    }
+  },
+  "66": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.516,
+        "tpr": 0.62658,
+        "tnr": 0.40542
+      },
+      "test_calibrated": {
+        "accuracy": 0.52048,
+        "tpr": 0.7879,
+        "tnr": 0.25306
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49895,
+        "tpr": 0.6022,
+        "tnr": 0.3957
+      },
+      "test_calibrated": {
+        "accuracy": 0.49901,
+        "tpr": 0.22794,
+        "tnr": 0.77008
+      }
+    }
+  },
+  "67": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51597,
+        "tpr": 0.65602,
+        "tnr": 0.37592
+      },
+      "test_calibrated": {
+        "accuracy": 0.51933,
+        "tpr": 0.81642,
+        "tnr": 0.22224
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50057,
+        "tpr": 0.7781,
+        "tnr": 0.22304
+      },
+      "test_calibrated": {
+        "accuracy": 0.50031,
+        "tpr": 0.98996,
+        "tnr": 0.01066
+      }
+    }
+  },
+  "68": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51534,
+        "tpr": 0.70864,
+        "tnr": 0.32204
+      },
+      "test_calibrated": {
+        "accuracy": 0.51545,
+        "tpr": 0.78442,
+        "tnr": 0.24648
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49831,
+        "tpr": 0.68114,
+        "tnr": 0.31548
+      },
+      "test_calibrated": {
+        "accuracy": 0.49862,
+        "tpr": 0.38668,
+        "tnr": 0.61056
+      }
+    }
+  },
+  "69": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5133,
+        "tpr": 0.58602,
+        "tnr": 0.44058
+      },
+      "test_calibrated": {
+        "accuracy": 0.51764,
+        "tpr": 0.88782,
+        "tnr": 0.14746
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50262,
+        "tpr": 0.69968,
+        "tnr": 0.30556
+      },
+      "test_calibrated": {
+        "accuracy": 0.50135,
+        "tpr": 0.19582,
+        "tnr": 0.80688
+      }
+    }
+  },
+  "6A": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51656,
+        "tpr": 0.59838,
+        "tnr": 0.43474
+      },
+      "test_calibrated": {
+        "accuracy": 0.52079,
+        "tpr": 0.81894,
+        "tnr": 0.22264
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50089,
+        "tpr": 0.5286,
+        "tnr": 0.47318
+      },
+      "test_calibrated": {
+        "accuracy": 0.50116,
+        "tpr": 0.54824,
+        "tnr": 0.45408
+      }
+    }
+  },
+  "6B": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51304,
+        "tpr": 0.58282,
+        "tnr": 0.44326
+      },
+      "test_calibrated": {
+        "accuracy": 0.51766,
+        "tpr": 0.86106,
+        "tnr": 0.17426
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50103,
+        "tpr": 0.195,
+        "tnr": 0.80706
+      },
+      "test_calibrated": {
+        "accuracy": 0.50138,
+        "tpr": 0.2692,
+        "tnr": 0.73356
+      }
+    }
+  },
+  "6C": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51892,
+        "tpr": 0.7608,
+        "tnr": 0.27704
+      },
+      "test_calibrated": {
+        "accuracy": 0.51918,
+        "tpr": 0.8893,
+        "tnr": 0.14906
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50277,
+        "tpr": 0.75196,
+        "tnr": 0.25358
+      },
+      "test_calibrated": {
+        "accuracy": 0.50299,
+        "tpr": 0.68884,
+        "tnr": 0.31714
+      }
+    }
+  },
+  "6D": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51565,
+        "tpr": 0.73226,
+        "tnr": 0.29904
+      },
+      "test_calibrated": {
+        "accuracy": 0.51583,
+        "tpr": 0.75056,
+        "tnr": 0.2811
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50023,
+        "tpr": 0.69368,
+        "tnr": 0.30678
+      },
+      "test_calibrated": {
+        "accuracy": 0.4981,
+        "tpr": 0.23366,
+        "tnr": 0.76254
+      }
+    }
+  },
+  "6E": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51251,
+        "tpr": 0.52056,
+        "tnr": 0.50446
+      },
+      "test_calibrated": {
+        "accuracy": 0.51747,
+        "tpr": 0.76632,
+        "tnr": 0.26862
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50119,
+        "tpr": 0.56116,
+        "tnr": 0.44122
+      },
+      "test_calibrated": {
+        "accuracy": 0.49992,
+        "tpr": 0.69954,
+        "tnr": 0.3003
+      }
+    }
+  },
+  "6F": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.52021,
+        "tpr": 0.71122,
+        "tnr": 0.3292
+      },
+      "test_calibrated": {
+        "accuracy": 0.51963,
+        "tpr": 0.82184,
+        "tnr": 0.21742
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50033,
+        "tpr": 0.68088,
+        "tnr": 0.31978
+      },
+      "test_calibrated": {
+        "accuracy": 0.50094,
+        "tpr": 0.87056,
+        "tnr": 0.13132
+      }
+    }
+  },
+  "70": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51453,
+        "tpr": 0.6162,
+        "tnr": 0.41286
+      },
+      "test_calibrated": {
+        "accuracy": 0.51825,
+        "tpr": 0.82848,
+        "tnr": 0.20802
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50092,
+        "tpr": 0.80556,
+        "tnr": 0.19628
+      },
+      "test_calibrated": {
+        "accuracy": 0.50107,
+        "tpr": 0.59834,
+        "tnr": 0.4038
+      }
+    }
+  },
+  "71": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51503,
+        "tpr": 0.59374,
+        "tnr": 0.43632
+      },
+      "test_calibrated": {
+        "accuracy": 0.51892,
+        "tpr": 0.8162,
+        "tnr": 0.22164
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49885,
+        "tpr": 0.45586,
+        "tnr": 0.54184
+      },
+      "test_calibrated": {
+        "accuracy": 0.49955,
+        "tpr": 0.958,
+        "tnr": 0.0411
+      }
+    }
+  },
+  "72": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51451,
+        "tpr": 0.66816,
+        "tnr": 0.36086
+      },
+      "test_calibrated": {
+        "accuracy": 0.51793,
+        "tpr": 0.89854,
+        "tnr": 0.13732
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50081,
+        "tpr": 0.13126,
+        "tnr": 0.87036
+      },
+      "test_calibrated": {
+        "accuracy": 0.50136,
+        "tpr": 0.80206,
+        "tnr": 0.20066
+      }
+    }
+  },
+  "73": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51435,
+        "tpr": 0.58308,
+        "tnr": 0.44562
+      },
+      "test_calibrated": {
+        "accuracy": 0.51622,
+        "tpr": 0.84482,
+        "tnr": 0.18762
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49773,
+        "tpr": 0.3333,
+        "tnr": 0.66216
+      },
+      "test_calibrated": {
+        "accuracy": 0.49954,
+        "tpr": 0.61982,
+        "tnr": 0.37926
+      }
+    }
+  },
+  "74": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.519,
+        "tpr": 0.6154,
+        "tnr": 0.4226
+      },
+      "test_calibrated": {
+        "accuracy": 0.52041,
+        "tpr": 0.8121,
+        "tnr": 0.22872
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49934,
+        "tpr": 0.41876,
+        "tnr": 0.57992
+      },
+      "test_calibrated": {
+        "accuracy": 0.49986,
+        "tpr": 0.7366,
+        "tnr": 0.26312
+      }
+    }
+  },
+  "75": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5143,
+        "tpr": 0.56486,
+        "tnr": 0.46374
+      },
+      "test_calibrated": {
+        "accuracy": 0.51907,
+        "tpr": 0.84616,
+        "tnr": 0.19198
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49837,
+        "tpr": 0.19646,
+        "tnr": 0.80028
+      },
+      "test_calibrated": {
+        "accuracy": 0.4993,
+        "tpr": 0.42982,
+        "tnr": 0.56878
+      }
+    }
+  },
+  "76": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51718,
+        "tpr": 0.67818,
+        "tnr": 0.35618
+      },
+      "test_calibrated": {
+        "accuracy": 0.52,
+        "tpr": 0.83076,
+        "tnr": 0.20924
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.498,
+        "tpr": 0.29214,
+        "tnr": 0.70386
+      },
+      "test_calibrated": {
+        "accuracy": 0.50122,
+        "tpr": 0.73346,
+        "tnr": 0.26898
+      }
+    }
+  },
+  "77": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51894,
+        "tpr": 0.7519,
+        "tnr": 0.28598
+      },
+      "test_calibrated": {
+        "accuracy": 0.51918,
+        "tpr": 0.78608,
+        "tnr": 0.25228
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50256,
+        "tpr": 0.26402,
+        "tnr": 0.7411
+      },
+      "test_calibrated": {
+        "accuracy": 0.50014,
+        "tpr": 0.1214,
+        "tnr": 0.87888
+      }
+    }
+  },
+  "78": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51683,
+        "tpr": 0.7017,
+        "tnr": 0.33196
+      },
+      "test_calibrated": {
+        "accuracy": 0.51909,
+        "tpr": 0.86656,
+        "tnr": 0.17162
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49734,
+        "tpr": 0.49624,
+        "tnr": 0.49844
+      },
+      "test_calibrated": {
+        "accuracy": 0.49789,
+        "tpr": 0.19656,
+        "tnr": 0.79922
+      }
+    }
+  },
+  "79": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51689,
+        "tpr": 0.72324,
+        "tnr": 0.31054
+      },
+      "test_calibrated": {
+        "accuracy": 0.51725,
+        "tpr": 0.8205,
+        "tnr": 0.214
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50256,
+        "tpr": 0.55758,
+        "tnr": 0.44754
+      },
+      "test_calibrated": {
+        "accuracy": 0.50037,
+        "tpr": 0.12098,
+        "tnr": 0.87976
+      }
+    }
+  },
+  "7A": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51026,
+        "tpr": 0.40076,
+        "tnr": 0.61976
+      },
+      "test_calibrated": {
+        "accuracy": 0.51853,
+        "tpr": 0.753,
+        "tnr": 0.28406
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50044,
+        "tpr": 0.86366,
+        "tnr": 0.13722
+      },
+      "test_calibrated": {
+        "accuracy": 0.49973,
+        "tpr": 0.58046,
+        "tnr": 0.419
+      }
+    }
+  },
+  "7B": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51736,
+        "tpr": 0.73142,
+        "tnr": 0.3033
+      },
+      "test_calibrated": {
+        "accuracy": 0.51827,
+        "tpr": 0.8873,
+        "tnr": 0.14924
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50117,
+        "tpr": 0.10272,
+        "tnr": 0.89962
+      },
+      "test_calibrated": {
+        "accuracy": 0.49944,
+        "tpr": 0.95532,
+        "tnr": 0.04356
+      }
+    }
+  },
+  "7C": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51772,
+        "tpr": 0.71174,
+        "tnr": 0.3237
+      },
+      "test_calibrated": {
+        "accuracy": 0.51814,
+        "tpr": 0.72612,
+        "tnr": 0.31016
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.4978,
+        "tpr": 0.8707,
+        "tnr": 0.1249
+      },
+      "test_calibrated": {
+        "accuracy": 0.49966,
+        "tpr": 0.64238,
+        "tnr": 0.35694
+      }
+    }
+  },
+  "7D": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51415,
+        "tpr": 0.5978,
+        "tnr": 0.4305
+      },
+      "test_calibrated": {
+        "accuracy": 0.51866,
+        "tpr": 0.8834,
+        "tnr": 0.15392
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49986,
+        "tpr": 0.57904,
+        "tnr": 0.42068
+      },
+      "test_calibrated": {
+        "accuracy": 0.50006,
+        "tpr": 0.51572,
+        "tnr": 0.4844
+      }
+    }
+  },
+  "7E": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.52073,
+        "tpr": 0.78472,
+        "tnr": 0.25674
+      },
+      "test_calibrated": {
+        "accuracy": 0.52004,
+        "tpr": 0.83654,
+        "tnr": 0.20354
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49983,
+        "tpr": 0.45616,
+        "tnr": 0.5435
+      },
+      "test_calibrated": {
+        "accuracy": 0.49868,
+        "tpr": 0.51988,
+        "tnr": 0.47748
+      }
+    }
+  },
+  "7F": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51455,
+        "tpr": 0.5591,
+        "tnr": 0.47
+      },
+      "test_calibrated": {
+        "accuracy": 0.51769,
+        "tpr": 0.79922,
+        "tnr": 0.23616
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49916,
+        "tpr": 0.6687,
+        "tnr": 0.32962
+      },
+      "test_calibrated": {
+        "accuracy": 0.4998,
+        "tpr": 0.00912,
+        "tnr": 0.99048
+      }
+    }
+  },
+  "80": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51574,
+        "tpr": 0.65646,
+        "tnr": 0.37502
+      },
+      "test_calibrated": {
+        "accuracy": 0.51822,
+        "tpr": 0.84414,
+        "tnr": 0.1923
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50078,
+        "tpr": 0.85078,
+        "tnr": 0.15078
+      },
+      "test_calibrated": {
+        "accuracy": 0.49993,
+        "tpr": 0.31344,
+        "tnr": 0.68642
+      }
+    }
+  },
+  "81": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51513,
+        "tpr": 0.63092,
+        "tnr": 0.39934
+      },
+      "test_calibrated": {
+        "accuracy": 0.51778,
+        "tpr": 0.89664,
+        "tnr": 0.13892
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49716,
+        "tpr": 0.61822,
+        "tnr": 0.3761
+      },
+      "test_calibrated": {
+        "accuracy": 0.49895,
+        "tpr": 0.55294,
+        "tnr": 0.44496
+      }
+    }
+  },
+  "82": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51762,
+        "tpr": 0.65672,
+        "tnr": 0.37852
+      },
+      "test_calibrated": {
+        "accuracy": 0.51986,
+        "tpr": 0.83086,
+        "tnr": 0.20886
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49768,
+        "tpr": 0.5049,
+        "tnr": 0.49046
+      },
+      "test_calibrated": {
+        "accuracy": 0.49697,
+        "tpr": 0.7872,
+        "tnr": 0.20674
+      }
+    }
+  },
+  "83": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51227,
+        "tpr": 0.54954,
+        "tnr": 0.475
+      },
+      "test_calibrated": {
+        "accuracy": 0.51818,
+        "tpr": 0.82832,
+        "tnr": 0.20804
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50012,
+        "tpr": 0.24132,
+        "tnr": 0.75892
+      },
+      "test_calibrated": {
+        "accuracy": 0.50204,
+        "tpr": 0.82656,
+        "tnr": 0.17752
+      }
+    }
+  },
+  "84": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51365,
+        "tpr": 0.6379,
+        "tnr": 0.3894
+      },
+      "test_calibrated": {
+        "accuracy": 0.51609,
+        "tpr": 0.90028,
+        "tnr": 0.1319
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50032,
+        "tpr": 0.2884,
+        "tnr": 0.71224
+      },
+      "test_calibrated": {
+        "accuracy": 0.49931,
+        "tpr": 0.05956,
+        "tnr": 0.93906
+      }
+    }
+  },
+  "85": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51611,
+        "tpr": 0.60748,
+        "tnr": 0.42474
+      },
+      "test_calibrated": {
+        "accuracy": 0.51978,
+        "tpr": 0.79916,
+        "tnr": 0.2404
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50402,
+        "tpr": 0.69104,
+        "tnr": 0.317
+      },
+      "test_calibrated": {
+        "accuracy": 0.50379,
+        "tpr": 0.68342,
+        "tnr": 0.32416
+      }
+    }
+  },
+  "86": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51845,
+        "tpr": 0.60318,
+        "tnr": 0.43372
+      },
+      "test_calibrated": {
+        "accuracy": 0.52303,
+        "tpr": 0.84,
+        "tnr": 0.20606
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50114,
+        "tpr": 0.25942,
+        "tnr": 0.74286
+      },
+      "test_calibrated": {
+        "accuracy": 0.5008,
+        "tpr": 0.39164,
+        "tnr": 0.60996
+      }
+    }
+  },
+  "87": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51084,
+        "tpr": 0.38084,
+        "tnr": 0.64084
+      },
+      "test_calibrated": {
+        "accuracy": 0.51989,
+        "tpr": 0.86446,
+        "tnr": 0.17532
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50127,
+        "tpr": 0.93162,
+        "tnr": 0.07092
+      },
+      "test_calibrated": {
+        "accuracy": 0.50048,
+        "tpr": 0.79142,
+        "tnr": 0.20954
+      }
+    }
+  },
+  "88": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51126,
+        "tpr": 0.44644,
+        "tnr": 0.57608
+      },
+      "test_calibrated": {
+        "accuracy": 0.51655,
+        "tpr": 0.70246,
+        "tnr": 0.33064
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50088,
+        "tpr": 0.35328,
+        "tnr": 0.64848
+      },
+      "test_calibrated": {
+        "accuracy": 0.50047,
+        "tpr": 0.17594,
+        "tnr": 0.825
+      }
+    }
+  },
+  "89": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51622,
+        "tpr": 0.70746,
+        "tnr": 0.32498
+      },
+      "test_calibrated": {
+        "accuracy": 0.51966,
+        "tpr": 0.8665,
+        "tnr": 0.17282
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50092,
+        "tpr": 0.8563,
+        "tnr": 0.14554
+      },
+      "test_calibrated": {
+        "accuracy": 0.49935,
+        "tpr": 0.06818,
+        "tnr": 0.93052
+      }
+    }
+  },
+  "8A": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51284,
+        "tpr": 0.6131,
+        "tnr": 0.41258
+      },
+      "test_calibrated": {
+        "accuracy": 0.51651,
+        "tpr": 0.87738,
+        "tnr": 0.15564
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50024,
+        "tpr": 0.11376,
+        "tnr": 0.88672
+      },
+      "test_calibrated": {
+        "accuracy": 0.50047,
+        "tpr": 0.6402,
+        "tnr": 0.36074
+      }
+    }
+  },
+  "8B": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51649,
+        "tpr": 0.70104,
+        "tnr": 0.33194
+      },
+      "test_calibrated": {
+        "accuracy": 0.51718,
+        "tpr": 0.88044,
+        "tnr": 0.15392
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49943,
+        "tpr": 0.2505,
+        "tnr": 0.74836
+      },
+      "test_calibrated": {
+        "accuracy": 0.49951,
+        "tpr": 0.40212,
+        "tnr": 0.5969
+      }
+    }
+  },
+  "8C": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51461,
+        "tpr": 0.67794,
+        "tnr": 0.35128
+      },
+      "test_calibrated": {
+        "accuracy": 0.51646,
+        "tpr": 0.7924,
+        "tnr": 0.24052
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50033,
+        "tpr": 0.64524,
+        "tnr": 0.35542
+      },
+      "test_calibrated": {
+        "accuracy": 0.50086,
+        "tpr": 0.62006,
+        "tnr": 0.38166
+      }
+    }
+  },
+  "8D": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51848,
+        "tpr": 0.72546,
+        "tnr": 0.3115
+      },
+      "test_calibrated": {
+        "accuracy": 0.51919,
+        "tpr": 0.82986,
+        "tnr": 0.20852
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50055,
+        "tpr": 0.02784,
+        "tnr": 0.97326
+      },
+      "test_calibrated": {
+        "accuracy": 0.50015,
+        "tpr": 0.0694,
+        "tnr": 0.9309
+      }
+    }
+  },
+  "8E": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51392,
+        "tpr": 0.57,
+        "tnr": 0.45784
+      },
+      "test_calibrated": {
+        "accuracy": 0.51938,
+        "tpr": 0.81996,
+        "tnr": 0.2188
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50013,
+        "tpr": 0.59976,
+        "tnr": 0.4005
+      },
+      "test_calibrated": {
+        "accuracy": 0.50137,
+        "tpr": 0.68008,
+        "tnr": 0.32266
+      }
+    }
+  },
+  "8F": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51182,
+        "tpr": 0.47428,
+        "tnr": 0.54936
+      },
+      "test_calibrated": {
+        "accuracy": 0.51688,
+        "tpr": 0.80364,
+        "tnr": 0.23012
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49912,
+        "tpr": 0.2551,
+        "tnr": 0.74314
+      },
+      "test_calibrated": {
+        "accuracy": 0.49948,
+        "tpr": 0.07686,
+        "tnr": 0.9221
+      }
+    }
+  },
+  "90": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51962,
+        "tpr": 0.68604,
+        "tnr": 0.3532
+      },
+      "test_calibrated": {
+        "accuracy": 0.52033,
+        "tpr": 0.85316,
+        "tnr": 0.1875
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49899,
+        "tpr": 0.73544,
+        "tnr": 0.26254
+      },
+      "test_calibrated": {
+        "accuracy": 0.49955,
+        "tpr": 0.27886,
+        "tnr": 0.72024
+      }
+    }
+  },
+  "91": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51531,
+        "tpr": 0.55432,
+        "tnr": 0.4763
+      },
+      "test_calibrated": {
+        "accuracy": 0.52031,
+        "tpr": 0.88218,
+        "tnr": 0.15844
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49903,
+        "tpr": 0.88064,
+        "tnr": 0.11742
+      },
+      "test_calibrated": {
+        "accuracy": 0.50032,
+        "tpr": 0.08736,
+        "tnr": 0.91328
+      }
+    }
+  },
+  "92": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51341,
+        "tpr": 0.48162,
+        "tnr": 0.5452
+      },
+      "test_calibrated": {
+        "accuracy": 0.51886,
+        "tpr": 0.88852,
+        "tnr": 0.1492
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49839,
+        "tpr": 0.5814,
+        "tnr": 0.41538
+      },
+      "test_calibrated": {
+        "accuracy": 0.49902,
+        "tpr": 0.52472,
+        "tnr": 0.47332
+      }
+    }
+  },
+  "93": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51103,
+        "tpr": 0.46696,
+        "tnr": 0.5551
+      },
+      "test_calibrated": {
+        "accuracy": 0.51919,
+        "tpr": 0.82566,
+        "tnr": 0.21272
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50128,
+        "tpr": 0.77222,
+        "tnr": 0.23034
+      },
+      "test_calibrated": {
+        "accuracy": 0.50006,
+        "tpr": 0.1948,
+        "tnr": 0.80532
+      }
+    }
+  },
+  "94": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51788,
+        "tpr": 0.63878,
+        "tnr": 0.39698
+      },
+      "test_calibrated": {
+        "accuracy": 0.5198,
+        "tpr": 0.83696,
+        "tnr": 0.20264
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49855,
+        "tpr": 0.60038,
+        "tnr": 0.39672
+      },
+      "test_calibrated": {
+        "accuracy": 0.49846,
+        "tpr": 0.49444,
+        "tnr": 0.50248
+      }
+    }
+  },
+  "95": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51517,
+        "tpr": 0.55432,
+        "tnr": 0.47602
+      },
+      "test_calibrated": {
+        "accuracy": 0.5195,
+        "tpr": 0.87514,
+        "tnr": 0.16386
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50033,
+        "tpr": 0.82186,
+        "tnr": 0.1788
+      },
+      "test_calibrated": {
+        "accuracy": 0.50037,
+        "tpr": 0.91224,
+        "tnr": 0.0885
+      }
+    }
+  },
+  "96": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51614,
+        "tpr": 0.63794,
+        "tnr": 0.39434
+      },
+      "test_calibrated": {
+        "accuracy": 0.51753,
+        "tpr": 0.80056,
+        "tnr": 0.2345
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50018,
+        "tpr": 0.31252,
+        "tnr": 0.68784
+      },
+      "test_calibrated": {
+        "accuracy": 0.5001,
+        "tpr": 0.34498,
+        "tnr": 0.65522
+      }
+    }
+  },
+  "97": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5165,
+        "tpr": 0.53478,
+        "tnr": 0.49822
+      },
+      "test_calibrated": {
+        "accuracy": 0.52012,
+        "tpr": 0.75556,
+        "tnr": 0.28468
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50005,
+        "tpr": 0.03952,
+        "tnr": 0.96058
+      },
+      "test_calibrated": {
+        "accuracy": 0.49825,
+        "tpr": 0.14818,
+        "tnr": 0.84832
+      }
+    }
+  },
+  "98": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51001,
+        "tpr": 0.38654,
+        "tnr": 0.63348
+      },
+      "test_calibrated": {
+        "accuracy": 0.51931,
+        "tpr": 0.75896,
+        "tnr": 0.27966
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49962,
+        "tpr": 0.86094,
+        "tnr": 0.1383
+      },
+      "test_calibrated": {
+        "accuracy": 0.50042,
+        "tpr": 0.42438,
+        "tnr": 0.57646
+      }
+    }
+  },
+  "99": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51136,
+        "tpr": 0.50076,
+        "tnr": 0.52196
+      },
+      "test_calibrated": {
+        "accuracy": 0.5174,
+        "tpr": 0.8418,
+        "tnr": 0.193
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49959,
+        "tpr": 0.96268,
+        "tnr": 0.0365
+      },
+      "test_calibrated": {
+        "accuracy": 0.49747,
+        "tpr": 0.48286,
+        "tnr": 0.51208
+      }
+    }
+  },
+  "9A": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51602,
+        "tpr": 0.6351,
+        "tnr": 0.39694
+      },
+      "test_calibrated": {
+        "accuracy": 0.51897,
+        "tpr": 0.8348,
+        "tnr": 0.20314
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49857,
+        "tpr": 0.7734,
+        "tnr": 0.22374
+      },
+      "test_calibrated": {
+        "accuracy": 0.50012,
+        "tpr": 0.06082,
+        "tnr": 0.93942
+      }
+    }
+  },
+  "9B": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51864,
+        "tpr": 0.69014,
+        "tnr": 0.34714
+      },
+      "test_calibrated": {
+        "accuracy": 0.52068,
+        "tpr": 0.78742,
+        "tnr": 0.25394
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49997,
+        "tpr": 0.98826,
+        "tnr": 0.01168
+      },
+      "test_calibrated": {
+        "accuracy": 0.50136,
+        "tpr": 0.09138,
+        "tnr": 0.91134
+      }
+    }
+  },
+  "9C": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51489,
+        "tpr": 0.65746,
+        "tnr": 0.37232
+      },
+      "test_calibrated": {
+        "accuracy": 0.51859,
+        "tpr": 0.84218,
+        "tnr": 0.195
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50101,
+        "tpr": 0.62488,
+        "tnr": 0.37714
+      },
+      "test_calibrated": {
+        "accuracy": 0.49877,
+        "tpr": 0.51966,
+        "tnr": 0.47788
+      }
+    }
+  },
+  "9D": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51743,
+        "tpr": 0.76142,
+        "tnr": 0.27344
+      },
+      "test_calibrated": {
+        "accuracy": 0.51998,
+        "tpr": 0.87618,
+        "tnr": 0.16378
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50054,
+        "tpr": 0.44264,
+        "tnr": 0.55844
+      },
+      "test_calibrated": {
+        "accuracy": 0.50043,
+        "tpr": 0.46142,
+        "tnr": 0.53944
+      }
+    }
+  },
+  "9E": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51496,
+        "tpr": 0.55822,
+        "tnr": 0.4717
+      },
+      "test_calibrated": {
+        "accuracy": 0.51929,
+        "tpr": 0.86008,
+        "tnr": 0.1785
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50021,
+        "tpr": 0.55608,
+        "tnr": 0.44434
+      },
+      "test_calibrated": {
+        "accuracy": 0.50091,
+        "tpr": 0.65228,
+        "tnr": 0.34954
+      }
+    }
+  },
+  "9F": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51558,
+        "tpr": 0.56724,
+        "tnr": 0.46392
+      },
+      "test_calibrated": {
+        "accuracy": 0.52056,
+        "tpr": 0.85866,
+        "tnr": 0.18246
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50088,
+        "tpr": 0.31648,
+        "tnr": 0.68528
+      },
+      "test_calibrated": {
+        "accuracy": 0.50072,
+        "tpr": 0.23688,
+        "tnr": 0.76456
+      }
+    }
+  },
+  "A0": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51848,
+        "tpr": 0.69868,
+        "tnr": 0.33828
+      },
+      "test_calibrated": {
+        "accuracy": 0.51791,
+        "tpr": 0.81174,
+        "tnr": 0.22408
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50082,
+        "tpr": 0.27394,
+        "tnr": 0.7277
+      },
+      "test_calibrated": {
+        "accuracy": 0.49887,
+        "tpr": 0.8658,
+        "tnr": 0.13194
+      }
+    }
+  },
+  "A1": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51626,
+        "tpr": 0.55814,
+        "tnr": 0.47438
+      },
+      "test_calibrated": {
+        "accuracy": 0.51864,
+        "tpr": 0.80806,
+        "tnr": 0.22922
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49885,
+        "tpr": 0.50868,
+        "tnr": 0.48902
+      },
+      "test_calibrated": {
+        "accuracy": 0.49976,
+        "tpr": 0.59086,
+        "tnr": 0.40866
+      }
+    }
+  },
+  "A2": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51628,
+        "tpr": 0.65468,
+        "tnr": 0.37788
+      },
+      "test_calibrated": {
+        "accuracy": 0.51764,
+        "tpr": 0.84814,
+        "tnr": 0.18714
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.499,
+        "tpr": 0.46706,
+        "tnr": 0.53094
+      },
+      "test_calibrated": {
+        "accuracy": 0.49953,
+        "tpr": 0.09554,
+        "tnr": 0.90352
+      }
+    }
+  },
+  "A3": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51825,
+        "tpr": 0.71434,
+        "tnr": 0.32216
+      },
+      "test_calibrated": {
+        "accuracy": 0.51943,
+        "tpr": 0.8409,
+        "tnr": 0.19796
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50035,
+        "tpr": 0.5567,
+        "tnr": 0.444
+      },
+      "test_calibrated": {
+        "accuracy": 0.50036,
+        "tpr": 0.50156,
+        "tnr": 0.49916
+      }
+    }
+  },
+  "A4": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51795,
+        "tpr": 0.81266,
+        "tnr": 0.22324
+      },
+      "test_calibrated": {
+        "accuracy": 0.51826,
+        "tpr": 0.845,
+        "tnr": 0.19152
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50016,
+        "tpr": 0.3759,
+        "tnr": 0.62442
+      },
+      "test_calibrated": {
+        "accuracy": 0.49926,
+        "tpr": 0.48902,
+        "tnr": 0.5095
+      }
+    }
+  },
+  "A5": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51528,
+        "tpr": 0.52422,
+        "tnr": 0.50634
+      },
+      "test_calibrated": {
+        "accuracy": 0.51966,
+        "tpr": 0.85054,
+        "tnr": 0.18878
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49882,
+        "tpr": 0.7758,
+        "tnr": 0.22184
+      },
+      "test_calibrated": {
+        "accuracy": 0.5011,
+        "tpr": 0.22324,
+        "tnr": 0.77896
+      }
+    }
+  },
+  "A6": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5141,
+        "tpr": 0.53806,
+        "tnr": 0.49014
+      },
+      "test_calibrated": {
+        "accuracy": 0.51956,
+        "tpr": 0.85718,
+        "tnr": 0.18194
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.4993,
+        "tpr": 0.50526,
+        "tnr": 0.49334
+      },
+      "test_calibrated": {
+        "accuracy": 0.49856,
+        "tpr": 0.6849,
+        "tnr": 0.31222
+      }
+    }
+  },
+  "A7": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51841,
+        "tpr": 0.71836,
+        "tnr": 0.31846
+      },
+      "test_calibrated": {
+        "accuracy": 0.5202,
+        "tpr": 0.82078,
+        "tnr": 0.21962
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49948,
+        "tpr": 0.908,
+        "tnr": 0.09096
+      },
+      "test_calibrated": {
+        "accuracy": 0.49965,
+        "tpr": 0.7274,
+        "tnr": 0.2719
+      }
+    }
+  },
+  "A8": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51558,
+        "tpr": 0.61836,
+        "tnr": 0.4128
+      },
+      "test_calibrated": {
+        "accuracy": 0.51654,
+        "tpr": 0.84988,
+        "tnr": 0.1832
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49899,
+        "tpr": 0.29106,
+        "tnr": 0.70692
+      },
+      "test_calibrated": {
+        "accuracy": 0.50113,
+        "tpr": 0.1493,
+        "tnr": 0.85296
+      }
+    }
+  },
+  "A9": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51268,
+        "tpr": 0.50354,
+        "tnr": 0.52182
+      },
+      "test_calibrated": {
+        "accuracy": 0.51713,
+        "tpr": 0.86768,
+        "tnr": 0.16658
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50073,
+        "tpr": 0.60098,
+        "tnr": 0.40048
+      },
+      "test_calibrated": {
+        "accuracy": 0.50061,
+        "tpr": 0.61924,
+        "tnr": 0.38198
+      }
+    }
+  },
+  "AA": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51568,
+        "tpr": 0.47202,
+        "tnr": 0.55934
+      },
+      "test_calibrated": {
+        "accuracy": 0.52112,
+        "tpr": 0.82148,
+        "tnr": 0.22076
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5024,
+        "tpr": 0.89916,
+        "tnr": 0.10564
+      },
+      "test_calibrated": {
+        "accuracy": 0.50036,
+        "tpr": 0.01022,
+        "tnr": 0.9905
+      }
+    }
+  },
+  "AB": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51549,
+        "tpr": 0.594,
+        "tnr": 0.43698
+      },
+      "test_calibrated": {
+        "accuracy": 0.51859,
+        "tpr": 0.88868,
+        "tnr": 0.1485
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49981,
+        "tpr": 0.99764,
+        "tnr": 0.00198
+      },
+      "test_calibrated": {
+        "accuracy": 0.49996,
+        "tpr": 0.19246,
+        "tnr": 0.80746
+      }
+    }
+  },
+  "AC": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51439,
+        "tpr": 0.53458,
+        "tnr": 0.4942
+      },
+      "test_calibrated": {
+        "accuracy": 0.52126,
+        "tpr": 0.75818,
+        "tnr": 0.28434
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49997,
+        "tpr": 0.57388,
+        "tnr": 0.42606
+      },
+      "test_calibrated": {
+        "accuracy": 0.50134,
+        "tpr": 0.64352,
+        "tnr": 0.35916
+      }
+    }
+  },
+  "AD": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51318,
+        "tpr": 0.56208,
+        "tnr": 0.46428
+      },
+      "test_calibrated": {
+        "accuracy": 0.51912,
+        "tpr": 0.91052,
+        "tnr": 0.12772
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49992,
+        "tpr": 0.99266,
+        "tnr": 0.00718
+      },
+      "test_calibrated": {
+        "accuracy": 0.4995,
+        "tpr": 0.8126,
+        "tnr": 0.1864
+      }
+    }
+  },
+  "AE": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51472,
+        "tpr": 0.656,
+        "tnr": 0.37344
+      },
+      "test_calibrated": {
+        "accuracy": 0.51682,
+        "tpr": 0.8389,
+        "tnr": 0.19474
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50188,
+        "tpr": 0.83294,
+        "tnr": 0.17082
+      },
+      "test_calibrated": {
+        "accuracy": 0.49983,
+        "tpr": 0.17802,
+        "tnr": 0.82164
+      }
+    }
+  },
+  "AF": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51795,
+        "tpr": 0.74454,
+        "tnr": 0.29136
+      },
+      "test_calibrated": {
+        "accuracy": 0.51887,
+        "tpr": 0.88722,
+        "tnr": 0.15052
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50123,
+        "tpr": 0.70386,
+        "tnr": 0.2986
+      },
+      "test_calibrated": {
+        "accuracy": 0.49867,
+        "tpr": 0.1371,
+        "tnr": 0.86024
+      }
+    }
+  },
+  "B0": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50974,
+        "tpr": 0.48892,
+        "tnr": 0.53056
+      },
+      "test_calibrated": {
+        "accuracy": 0.51641,
+        "tpr": 0.77836,
+        "tnr": 0.25446
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49857,
+        "tpr": 0.18942,
+        "tnr": 0.80772
+      },
+      "test_calibrated": {
+        "accuracy": 0.49927,
+        "tpr": 0.62958,
+        "tnr": 0.36896
+      }
+    }
+  },
+  "B1": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5162,
+        "tpr": 0.71348,
+        "tnr": 0.31892
+      },
+      "test_calibrated": {
+        "accuracy": 0.5156,
+        "tpr": 0.70114,
+        "tnr": 0.33006
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50145,
+        "tpr": 0.6104,
+        "tnr": 0.3925
+      },
+      "test_calibrated": {
+        "accuracy": 0.50029,
+        "tpr": 0.94954,
+        "tnr": 0.05104
+      }
+    }
+  },
+  "B2": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51772,
+        "tpr": 0.60712,
+        "tnr": 0.42832
+      },
+      "test_calibrated": {
+        "accuracy": 0.52078,
+        "tpr": 0.79278,
+        "tnr": 0.24878
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50033,
+        "tpr": 0.65954,
+        "tnr": 0.34112
+      },
+      "test_calibrated": {
+        "accuracy": 0.50093,
+        "tpr": 0.4908,
+        "tnr": 0.51106
+      }
+    }
+  },
+  "B3": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51413,
+        "tpr": 0.51348,
+        "tnr": 0.51478
+      },
+      "test_calibrated": {
+        "accuracy": 0.5199,
+        "tpr": 0.7898,
+        "tnr": 0.25
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50124,
+        "tpr": 0.64796,
+        "tnr": 0.35452
+      },
+      "test_calibrated": {
+        "accuracy": 0.5003,
+        "tpr": 0.99134,
+        "tnr": 0.00926
+      }
+    }
+  },
+  "B4": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51815,
+        "tpr": 0.64174,
+        "tnr": 0.39456
+      },
+      "test_calibrated": {
+        "accuracy": 0.51965,
+        "tpr": 0.84078,
+        "tnr": 0.19852
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49796,
+        "tpr": 0.64618,
+        "tnr": 0.34974
+      },
+      "test_calibrated": {
+        "accuracy": 0.49667,
+        "tpr": 0.34368,
+        "tnr": 0.64966
+      }
+    }
+  },
+  "B5": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51521,
+        "tpr": 0.55894,
+        "tnr": 0.47148
+      },
+      "test_calibrated": {
+        "accuracy": 0.51802,
+        "tpr": 0.72532,
+        "tnr": 0.31072
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50022,
+        "tpr": 0.6067,
+        "tnr": 0.39374
+      },
+      "test_calibrated": {
+        "accuracy": 0.50015,
+        "tpr": 0.50882,
+        "tnr": 0.49148
+      }
+    }
+  },
+  "B6": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51734,
+        "tpr": 0.81786,
+        "tnr": 0.21682
+      },
+      "test_calibrated": {
+        "accuracy": 0.5174,
+        "tpr": 0.85276,
+        "tnr": 0.18204
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50086,
+        "tpr": 0.88268,
+        "tnr": 0.11904
+      },
+      "test_calibrated": {
+        "accuracy": 0.50215,
+        "tpr": 0.5121,
+        "tnr": 0.4922
+      }
+    }
+  },
+  "B7": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.514,
+        "tpr": 0.52074,
+        "tnr": 0.50726
+      },
+      "test_calibrated": {
+        "accuracy": 0.5192,
+        "tpr": 0.86966,
+        "tnr": 0.16874
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49834,
+        "tpr": 0.51548,
+        "tnr": 0.4812
+      },
+      "test_calibrated": {
+        "accuracy": 0.49864,
+        "tpr": 0.51452,
+        "tnr": 0.48276
+      }
+    }
+  },
+  "B8": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51417,
+        "tpr": 0.61112,
+        "tnr": 0.41722
+      },
+      "test_calibrated": {
+        "accuracy": 0.51801,
+        "tpr": 0.83928,
+        "tnr": 0.19674
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5005,
+        "tpr": 0.82476,
+        "tnr": 0.17624
+      },
+      "test_calibrated": {
+        "accuracy": 0.49899,
+        "tpr": 0.61742,
+        "tnr": 0.38056
+      }
+    }
+  },
+  "B9": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51576,
+        "tpr": 0.6461,
+        "tnr": 0.38542
+      },
+      "test_calibrated": {
+        "accuracy": 0.51642,
+        "tpr": 0.76352,
+        "tnr": 0.26932
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49734,
+        "tpr": 0.60786,
+        "tnr": 0.38682
+      },
+      "test_calibrated": {
+        "accuracy": 0.49865,
+        "tpr": 0.33806,
+        "tnr": 0.65924
+      }
+    }
+  },
+  "BA": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.52049,
+        "tpr": 0.80702,
+        "tnr": 0.23396
+      },
+      "test_calibrated": {
+        "accuracy": 0.5206,
+        "tpr": 0.75934,
+        "tnr": 0.28186
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49992,
+        "tpr": 0.87824,
+        "tnr": 0.1216
+      },
+      "test_calibrated": {
+        "accuracy": 0.49928,
+        "tpr": 0.38212,
+        "tnr": 0.61644
+      }
+    }
+  },
+  "BB": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51743,
+        "tpr": 0.728,
+        "tnr": 0.30686
+      },
+      "test_calibrated": {
+        "accuracy": 0.52058,
+        "tpr": 0.87056,
+        "tnr": 0.1706
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50034,
+        "tpr": 0.51324,
+        "tnr": 0.48744
+      },
+      "test_calibrated": {
+        "accuracy": 0.5002,
+        "tpr": 0.13094,
+        "tnr": 0.86946
+      }
+    }
+  },
+  "BC": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51934,
+        "tpr": 0.69658,
+        "tnr": 0.3421
+      },
+      "test_calibrated": {
+        "accuracy": 0.52183,
+        "tpr": 0.83968,
+        "tnr": 0.20398
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50114,
+        "tpr": 0.25088,
+        "tnr": 0.7514
+      },
+      "test_calibrated": {
+        "accuracy": 0.49963,
+        "tpr": 0.15698,
+        "tnr": 0.84228
+      }
+    }
+  },
+  "BD": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5168,
+        "tpr": 0.74382,
+        "tnr": 0.28978
+      },
+      "test_calibrated": {
+        "accuracy": 0.51718,
+        "tpr": 0.80622,
+        "tnr": 0.22814
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49951,
+        "tpr": 0.67064,
+        "tnr": 0.32838
+      },
+      "test_calibrated": {
+        "accuracy": 0.49954,
+        "tpr": 0.38878,
+        "tnr": 0.6103
+      }
+    }
+  },
+  "BE": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51756,
+        "tpr": 0.61162,
+        "tnr": 0.4235
+      },
+      "test_calibrated": {
+        "accuracy": 0.51854,
+        "tpr": 0.85962,
+        "tnr": 0.17746
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5005,
+        "tpr": 0.57308,
+        "tnr": 0.42792
+      },
+      "test_calibrated": {
+        "accuracy": 0.50046,
+        "tpr": 0.56146,
+        "tnr": 0.43946
+      }
+    }
+  },
+  "BF": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51872,
+        "tpr": 0.6658,
+        "tnr": 0.37164
+      },
+      "test_calibrated": {
+        "accuracy": 0.51898,
+        "tpr": 0.81742,
+        "tnr": 0.22054
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49996,
+        "tpr": 0.9999,
+        "tnr": 2e-05
+      },
+      "test_calibrated": {
+        "accuracy": 0.50095,
+        "tpr": 0.493,
+        "tnr": 0.5089
+      }
+    }
+  },
+  "C0": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5173,
+        "tpr": 0.65828,
+        "tnr": 0.37632
+      },
+      "test_calibrated": {
+        "accuracy": 0.51909,
+        "tpr": 0.81356,
+        "tnr": 0.22462
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50013,
+        "tpr": 0.29594,
+        "tnr": 0.70432
+      },
+      "test_calibrated": {
+        "accuracy": 0.49992,
+        "tpr": 0.95492,
+        "tnr": 0.04492
+      }
+    }
+  },
+  "C1": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.52178,
+        "tpr": 0.75532,
+        "tnr": 0.28824
+      },
+      "test_calibrated": {
+        "accuracy": 0.52005,
+        "tpr": 0.87738,
+        "tnr": 0.16272
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49977,
+        "tpr": 0.0252,
+        "tnr": 0.97434
+      },
+      "test_calibrated": {
+        "accuracy": 0.50064,
+        "tpr": 0.49092,
+        "tnr": 0.51036
+      }
+    }
+  },
+  "C2": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51729,
+        "tpr": 0.61714,
+        "tnr": 0.41744
+      },
+      "test_calibrated": {
+        "accuracy": 0.51909,
+        "tpr": 0.83858,
+        "tnr": 0.1996
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49838,
+        "tpr": 0.3188,
+        "tnr": 0.67796
+      },
+      "test_calibrated": {
+        "accuracy": 0.50108,
+        "tpr": 0.67712,
+        "tnr": 0.32504
+      }
+    }
+  },
+  "C3": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51664,
+        "tpr": 0.74408,
+        "tnr": 0.2892
+      },
+      "test_calibrated": {
+        "accuracy": 0.51833,
+        "tpr": 0.7877,
+        "tnr": 0.24896
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50036,
+        "tpr": 0.44522,
+        "tnr": 0.5555
+      },
+      "test_calibrated": {
+        "accuracy": 0.50083,
+        "tpr": 0.40728,
+        "tnr": 0.59438
+      }
+    }
+  },
+  "C4": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51732,
+        "tpr": 0.6215,
+        "tnr": 0.41314
+      },
+      "test_calibrated": {
+        "accuracy": 0.51849,
+        "tpr": 0.9133,
+        "tnr": 0.12368
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49864,
+        "tpr": 0.5473,
+        "tnr": 0.44998
+      },
+      "test_calibrated": {
+        "accuracy": 0.49982,
+        "tpr": 0.02812,
+        "tnr": 0.97152
+      }
+    }
+  },
+  "C5": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5123,
+        "tpr": 0.48116,
+        "tnr": 0.54344
+      },
+      "test_calibrated": {
+        "accuracy": 0.51717,
+        "tpr": 0.87642,
+        "tnr": 0.15792
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49802,
+        "tpr": 0.59906,
+        "tnr": 0.39698
+      },
+      "test_calibrated": {
+        "accuracy": 0.4989,
+        "tpr": 0.39074,
+        "tnr": 0.60706
+      }
+    }
+  },
+  "C6": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51439,
+        "tpr": 0.58914,
+        "tnr": 0.43964
+      },
+      "test_calibrated": {
+        "accuracy": 0.51927,
+        "tpr": 0.8209,
+        "tnr": 0.21764
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50017,
+        "tpr": 0.06424,
+        "tnr": 0.9361
+      },
+      "test_calibrated": {
+        "accuracy": 0.497,
+        "tpr": 0.56358,
+        "tnr": 0.43042
+      }
+    }
+  },
+  "C7": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51231,
+        "tpr": 0.53912,
+        "tnr": 0.4855
+      },
+      "test_calibrated": {
+        "accuracy": 0.51808,
+        "tpr": 0.87118,
+        "tnr": 0.16498
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.4971,
+        "tpr": 0.30982,
+        "tnr": 0.68438
+      },
+      "test_calibrated": {
+        "accuracy": 0.49973,
+        "tpr": 0.57922,
+        "tnr": 0.42024
+      }
+    }
+  },
+  "C8": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51491,
+        "tpr": 0.501,
+        "tnr": 0.52882
+      },
+      "test_calibrated": {
+        "accuracy": 0.51898,
+        "tpr": 0.83992,
+        "tnr": 0.19804
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50268,
+        "tpr": 0.34474,
+        "tnr": 0.66062
+      },
+      "test_calibrated": {
+        "accuracy": 0.50017,
+        "tpr": 0.0102,
+        "tnr": 0.99014
+      }
+    }
+  },
+  "C9": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51256,
+        "tpr": 0.50394,
+        "tnr": 0.52118
+      },
+      "test_calibrated": {
+        "accuracy": 0.51797,
+        "tpr": 0.76162,
+        "tnr": 0.27432
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49937,
+        "tpr": 0.71782,
+        "tnr": 0.28092
+      },
+      "test_calibrated": {
+        "accuracy": 0.49798,
+        "tpr": 0.7751,
+        "tnr": 0.22086
+      }
+    }
+  },
+  "CA": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51705,
+        "tpr": 0.63756,
+        "tnr": 0.39654
+      },
+      "test_calibrated": {
+        "accuracy": 0.5182,
+        "tpr": 0.869,
+        "tnr": 0.1674
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49883,
+        "tpr": 0.75018,
+        "tnr": 0.24748
+      },
+      "test_calibrated": {
+        "accuracy": 0.49901,
+        "tpr": 0.59522,
+        "tnr": 0.4028
+      }
+    }
+  },
+  "CB": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5105,
+        "tpr": 0.40378,
+        "tnr": 0.61722
+      },
+      "test_calibrated": {
+        "accuracy": 0.51812,
+        "tpr": 0.87962,
+        "tnr": 0.15662
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49972,
+        "tpr": 0.5637,
+        "tnr": 0.43574
+      },
+      "test_calibrated": {
+        "accuracy": 0.49955,
+        "tpr": 0.46724,
+        "tnr": 0.53186
+      }
+    }
+  },
+  "CC": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51351,
+        "tpr": 0.64992,
+        "tnr": 0.3771
+      },
+      "test_calibrated": {
+        "accuracy": 0.5166,
+        "tpr": 0.833,
+        "tnr": 0.2002
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49952,
+        "tpr": 0.8455,
+        "tnr": 0.15354
+      },
+      "test_calibrated": {
+        "accuracy": 0.50052,
+        "tpr": 0.96508,
+        "tnr": 0.03596
+      }
+    }
+  },
+  "CD": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51046,
+        "tpr": 0.52936,
+        "tnr": 0.49156
+      },
+      "test_calibrated": {
+        "accuracy": 0.51501,
+        "tpr": 0.7809,
+        "tnr": 0.24912
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49967,
+        "tpr": 0.11056,
+        "tnr": 0.88878
+      },
+      "test_calibrated": {
+        "accuracy": 0.50181,
+        "tpr": 0.66116,
+        "tnr": 0.34246
+      }
+    }
+  },
+  "CE": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51718,
+        "tpr": 0.62484,
+        "tnr": 0.40952
+      },
+      "test_calibrated": {
+        "accuracy": 0.51878,
+        "tpr": 0.8039,
+        "tnr": 0.23366
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50031,
+        "tpr": 0.69522,
+        "tnr": 0.3054
+      },
+      "test_calibrated": {
+        "accuracy": 0.50002,
+        "tpr": 0.68218,
+        "tnr": 0.31786
+      }
+    }
+  },
+  "CF": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51713,
+        "tpr": 0.70032,
+        "tnr": 0.33394
+      },
+      "test_calibrated": {
+        "accuracy": 0.51703,
+        "tpr": 0.87336,
+        "tnr": 0.1607
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50103,
+        "tpr": 0.54728,
+        "tnr": 0.45478
+      },
+      "test_calibrated": {
+        "accuracy": 0.49823,
+        "tpr": 0.91188,
+        "tnr": 0.08458
+      }
+    }
+  },
+  "D0": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50917,
+        "tpr": 0.3996,
+        "tnr": 0.61874
+      },
+      "test_calibrated": {
+        "accuracy": 0.51858,
+        "tpr": 0.8663,
+        "tnr": 0.17086
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49791,
+        "tpr": 0.55938,
+        "tnr": 0.43644
+      },
+      "test_calibrated": {
+        "accuracy": 0.49983,
+        "tpr": 0.34472,
+        "tnr": 0.65494
+      }
+    }
+  },
+  "D1": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.52106,
+        "tpr": 0.82532,
+        "tnr": 0.2168
+      },
+      "test_calibrated": {
+        "accuracy": 0.52098,
+        "tpr": 0.87268,
+        "tnr": 0.16928
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50142,
+        "tpr": 0.48508,
+        "tnr": 0.51776
+      },
+      "test_calibrated": {
+        "accuracy": 0.49878,
+        "tpr": 0.86674,
+        "tnr": 0.13082
+      }
+    }
+  },
+  "D2": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51668,
+        "tpr": 0.65962,
+        "tnr": 0.37374
+      },
+      "test_calibrated": {
+        "accuracy": 0.51934,
+        "tpr": 0.84488,
+        "tnr": 0.1938
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50113,
+        "tpr": 0.669,
+        "tnr": 0.33326
+      },
+      "test_calibrated": {
+        "accuracy": 0.50166,
+        "tpr": 0.7401,
+        "tnr": 0.26322
+      }
+    }
+  },
+  "D3": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51739,
+        "tpr": 0.66602,
+        "tnr": 0.36876
+      },
+      "test_calibrated": {
+        "accuracy": 0.51901,
+        "tpr": 0.77876,
+        "tnr": 0.25926
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50197,
+        "tpr": 0.65632,
+        "tnr": 0.34762
+      },
+      "test_calibrated": {
+        "accuracy": 0.50101,
+        "tpr": 0.52294,
+        "tnr": 0.47908
+      }
+    }
+  },
+  "D4": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51333,
+        "tpr": 0.56236,
+        "tnr": 0.4643
+      },
+      "test_calibrated": {
+        "accuracy": 0.51669,
+        "tpr": 0.76308,
+        "tnr": 0.2703
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50063,
+        "tpr": 0.70716,
+        "tnr": 0.2941
+      },
+      "test_calibrated": {
+        "accuracy": 0.49947,
+        "tpr": 0.60152,
+        "tnr": 0.39742
+      }
+    }
+  },
+  "D5": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51521,
+        "tpr": 0.68676,
+        "tnr": 0.34366
+      },
+      "test_calibrated": {
+        "accuracy": 0.51768,
+        "tpr": 0.84982,
+        "tnr": 0.18554
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49901,
+        "tpr": 0.37422,
+        "tnr": 0.6238
+      },
+      "test_calibrated": {
+        "accuracy": 0.49987,
+        "tpr": 0.05984,
+        "tnr": 0.9399
+      }
+    }
+  },
+  "D6": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51444,
+        "tpr": 0.5656,
+        "tnr": 0.46328
+      },
+      "test_calibrated": {
+        "accuracy": 0.5208,
+        "tpr": 0.81662,
+        "tnr": 0.22498
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50105,
+        "tpr": 0.66396,
+        "tnr": 0.33814
+      },
+      "test_calibrated": {
+        "accuracy": 0.5001,
+        "tpr": 0.47872,
+        "tnr": 0.52148
+      }
+    }
+  },
+  "D7": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51514,
+        "tpr": 0.5612,
+        "tnr": 0.46908
+      },
+      "test_calibrated": {
+        "accuracy": 0.51837,
+        "tpr": 0.85842,
+        "tnr": 0.17832
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49972,
+        "tpr": 0.51786,
+        "tnr": 0.48158
+      },
+      "test_calibrated": {
+        "accuracy": 0.50096,
+        "tpr": 0.68776,
+        "tnr": 0.31416
+      }
+    }
+  },
+  "D8": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51031,
+        "tpr": 0.48012,
+        "tnr": 0.5405
+      },
+      "test_calibrated": {
+        "accuracy": 0.51768,
+        "tpr": 0.86912,
+        "tnr": 0.16624
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50013,
+        "tpr": 0.92356,
+        "tnr": 0.0767
+      },
+      "test_calibrated": {
+        "accuracy": 0.50259,
+        "tpr": 0.62456,
+        "tnr": 0.38062
+      }
+    }
+  },
+  "D9": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51693,
+        "tpr": 0.73104,
+        "tnr": 0.30282
+      },
+      "test_calibrated": {
+        "accuracy": 0.51651,
+        "tpr": 0.77364,
+        "tnr": 0.25938
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5013,
+        "tpr": 0.72888,
+        "tnr": 0.27372
+      },
+      "test_calibrated": {
+        "accuracy": 0.49857,
+        "tpr": 0.24944,
+        "tnr": 0.7477
+      }
+    }
+  },
+  "DA": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5167,
+        "tpr": 0.59526,
+        "tnr": 0.43814
+      },
+      "test_calibrated": {
+        "accuracy": 0.52018,
+        "tpr": 0.79964,
+        "tnr": 0.24072
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50082,
+        "tpr": 0.8327,
+        "tnr": 0.16894
+      },
+      "test_calibrated": {
+        "accuracy": 0.50081,
+        "tpr": 0.73666,
+        "tnr": 0.26496
+      }
+    }
+  },
+  "DB": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51755,
+        "tpr": 0.65548,
+        "tnr": 0.37962
+      },
+      "test_calibrated": {
+        "accuracy": 0.51932,
+        "tpr": 0.88926,
+        "tnr": 0.14938
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50065,
+        "tpr": 0.14362,
+        "tnr": 0.85768
+      },
+      "test_calibrated": {
+        "accuracy": 0.4998,
+        "tpr": 0.72626,
+        "tnr": 0.27334
+      }
+    }
+  },
+  "DC": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5151,
+        "tpr": 0.63474,
+        "tnr": 0.39546
+      },
+      "test_calibrated": {
+        "accuracy": 0.51813,
+        "tpr": 0.88868,
+        "tnr": 0.14758
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49828,
+        "tpr": 0.08526,
+        "tnr": 0.9113
+      },
+      "test_calibrated": {
+        "accuracy": 0.49876,
+        "tpr": 0.12098,
+        "tnr": 0.87654
+      }
+    }
+  },
+  "DD": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51602,
+        "tpr": 0.56518,
+        "tnr": 0.46686
+      },
+      "test_calibrated": {
+        "accuracy": 0.51924,
+        "tpr": 0.83824,
+        "tnr": 0.20024
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49809,
+        "tpr": 0.46784,
+        "tnr": 0.52834
+      },
+      "test_calibrated": {
+        "accuracy": 0.49817,
+        "tpr": 0.48802,
+        "tnr": 0.50832
+      }
+    }
+  },
+  "DE": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50881,
+        "tpr": 0.53002,
+        "tnr": 0.4876
+      },
+      "test_calibrated": {
+        "accuracy": 0.51667,
+        "tpr": 0.92116,
+        "tnr": 0.11218
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.4983,
+        "tpr": 0.61006,
+        "tnr": 0.38654
+      },
+      "test_calibrated": {
+        "accuracy": 0.50069,
+        "tpr": 0.17804,
+        "tnr": 0.82334
+      }
+    }
+  },
+  "DF": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51526,
+        "tpr": 0.68182,
+        "tnr": 0.3487
+      },
+      "test_calibrated": {
+        "accuracy": 0.51629,
+        "tpr": 0.83088,
+        "tnr": 0.2017
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50026,
+        "tpr": 0.07916,
+        "tnr": 0.92136
+      },
+      "test_calibrated": {
+        "accuracy": 0.49893,
+        "tpr": 0.8717,
+        "tnr": 0.12616
+      }
+    }
+  },
+  "E0": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51558,
+        "tpr": 0.69082,
+        "tnr": 0.34034
+      },
+      "test_calibrated": {
+        "accuracy": 0.51616,
+        "tpr": 0.78562,
+        "tnr": 0.2467
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49992,
+        "tpr": 0.9904,
+        "tnr": 0.00944
+      },
+      "test_calibrated": {
+        "accuracy": 0.50017,
+        "tpr": 0.5415,
+        "tnr": 0.45884
+      }
+    }
+  },
+  "E1": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51635,
+        "tpr": 0.65832,
+        "tnr": 0.37438
+      },
+      "test_calibrated": {
+        "accuracy": 0.51687,
+        "tpr": 0.73598,
+        "tnr": 0.29776
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50016,
+        "tpr": 0.58614,
+        "tnr": 0.41418
+      },
+      "test_calibrated": {
+        "accuracy": 0.49975,
+        "tpr": 0.23206,
+        "tnr": 0.76744
+      }
+    }
+  },
+  "E2": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51932,
+        "tpr": 0.72064,
+        "tnr": 0.318
+      },
+      "test_calibrated": {
+        "accuracy": 0.51924,
+        "tpr": 0.80118,
+        "tnr": 0.2373
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50027,
+        "tpr": 0.46668,
+        "tnr": 0.53386
+      },
+      "test_calibrated": {
+        "accuracy": 0.50016,
+        "tpr": 0.79528,
+        "tnr": 0.20504
+      }
+    }
+  },
+  "E3": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51654,
+        "tpr": 0.6043,
+        "tnr": 0.42878
+      },
+      "test_calibrated": {
+        "accuracy": 0.51923,
+        "tpr": 0.80556,
+        "tnr": 0.2329
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50067,
+        "tpr": 0.36312,
+        "tnr": 0.63822
+      },
+      "test_calibrated": {
+        "accuracy": 0.50075,
+        "tpr": 0.44742,
+        "tnr": 0.55408
+      }
+    }
+  },
+  "E4": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5154,
+        "tpr": 0.70642,
+        "tnr": 0.32438
+      },
+      "test_calibrated": {
+        "accuracy": 0.51644,
+        "tpr": 0.79684,
+        "tnr": 0.23604
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50039,
+        "tpr": 0.82668,
+        "tnr": 0.1741
+      },
+      "test_calibrated": {
+        "accuracy": 0.50083,
+        "tpr": 0.21554,
+        "tnr": 0.78612
+      }
+    }
+  },
+  "E5": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51993,
+        "tpr": 0.76778,
+        "tnr": 0.27208
+      },
+      "test_calibrated": {
+        "accuracy": 0.51914,
+        "tpr": 0.86446,
+        "tnr": 0.17382
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50196,
+        "tpr": 0.6002,
+        "tnr": 0.40372
+      },
+      "test_calibrated": {
+        "accuracy": 0.50142,
+        "tpr": 0.0705,
+        "tnr": 0.93234
+      }
+    }
+  },
+  "E6": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51353,
+        "tpr": 0.63024,
+        "tnr": 0.39682
+      },
+      "test_calibrated": {
+        "accuracy": 0.5146,
+        "tpr": 0.678,
+        "tnr": 0.3512
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50093,
+        "tpr": 0.27656,
+        "tnr": 0.7253
+      },
+      "test_calibrated": {
+        "accuracy": 0.49999,
+        "tpr": 0.61618,
+        "tnr": 0.3838
+      }
+    }
+  },
+  "E7": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51424,
+        "tpr": 0.5761,
+        "tnr": 0.45238
+      },
+      "test_calibrated": {
+        "accuracy": 0.51994,
+        "tpr": 0.8411,
+        "tnr": 0.19878
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50029,
+        "tpr": 0.0896,
+        "tnr": 0.91098
+      },
+      "test_calibrated": {
+        "accuracy": 0.49877,
+        "tpr": 0.29084,
+        "tnr": 0.7067
+      }
+    }
+  },
+  "E8": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51287,
+        "tpr": 0.52306,
+        "tnr": 0.50268
+      },
+      "test_calibrated": {
+        "accuracy": 0.51686,
+        "tpr": 0.85188,
+        "tnr": 0.18184
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50305,
+        "tpr": 0.59328,
+        "tnr": 0.41282
+      },
+      "test_calibrated": {
+        "accuracy": 0.50093,
+        "tpr": 0.91558,
+        "tnr": 0.08628
+      }
+    }
+  },
+  "E9": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50712,
+        "tpr": 0.26642,
+        "tnr": 0.74782
+      },
+      "test_calibrated": {
+        "accuracy": 0.51742,
+        "tpr": 0.72706,
+        "tnr": 0.30778
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5009,
+        "tpr": 0.79656,
+        "tnr": 0.20524
+      },
+      "test_calibrated": {
+        "accuracy": 0.49898,
+        "tpr": 0.36286,
+        "tnr": 0.6351
+      }
+    }
+  },
+  "EA": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51201,
+        "tpr": 0.45914,
+        "tnr": 0.56488
+      },
+      "test_calibrated": {
+        "accuracy": 0.51762,
+        "tpr": 0.8483,
+        "tnr": 0.18694
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49809,
+        "tpr": 0.5864,
+        "tnr": 0.40978
+      },
+      "test_calibrated": {
+        "accuracy": 0.50033,
+        "tpr": 0.3372,
+        "tnr": 0.66346
+      }
+    }
+  },
+  "EB": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51678,
+        "tpr": 0.73106,
+        "tnr": 0.3025
+      },
+      "test_calibrated": {
+        "accuracy": 0.51864,
+        "tpr": 0.87434,
+        "tnr": 0.16294
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49662,
+        "tpr": 0.5419,
+        "tnr": 0.45134
+      },
+      "test_calibrated": {
+        "accuracy": 0.49741,
+        "tpr": 0.58784,
+        "tnr": 0.40698
+      }
+    }
+  },
+  "EC": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51629,
+        "tpr": 0.65248,
+        "tnr": 0.3801
+      },
+      "test_calibrated": {
+        "accuracy": 0.51857,
+        "tpr": 0.88898,
+        "tnr": 0.14816
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50011,
+        "tpr": 0.29698,
+        "tnr": 0.70324
+      },
+      "test_calibrated": {
+        "accuracy": 0.4992,
+        "tpr": 0.27048,
+        "tnr": 0.72792
+      }
+    }
+  },
+  "ED": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51357,
+        "tpr": 0.52538,
+        "tnr": 0.50176
+      },
+      "test_calibrated": {
+        "accuracy": 0.5172,
+        "tpr": 0.84702,
+        "tnr": 0.18738
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50063,
+        "tpr": 0.6631,
+        "tnr": 0.33816
+      },
+      "test_calibrated": {
+        "accuracy": 0.49947,
+        "tpr": 0.77334,
+        "tnr": 0.2256
+      }
+    }
+  },
+  "EE": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51565,
+        "tpr": 0.71766,
+        "tnr": 0.31364
+      },
+      "test_calibrated": {
+        "accuracy": 0.51735,
+        "tpr": 0.82728,
+        "tnr": 0.20742
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49809,
+        "tpr": 0.56566,
+        "tnr": 0.43052
+      },
+      "test_calibrated": {
+        "accuracy": 0.49997,
+        "tpr": 0.04504,
+        "tnr": 0.9549
+      }
+    }
+  },
+  "EF": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51707,
+        "tpr": 0.5511,
+        "tnr": 0.48304
+      },
+      "test_calibrated": {
+        "accuracy": 0.52025,
+        "tpr": 0.85744,
+        "tnr": 0.18306
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50125,
+        "tpr": 0.14518,
+        "tnr": 0.85732
+      },
+      "test_calibrated": {
+        "accuracy": 0.50154,
+        "tpr": 0.49418,
+        "tnr": 0.5089
+      }
+    }
+  },
+  "F0": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51604,
+        "tpr": 0.52638,
+        "tnr": 0.5057
+      },
+      "test_calibrated": {
+        "accuracy": 0.51987,
+        "tpr": 0.84064,
+        "tnr": 0.1991
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50064,
+        "tpr": 0.51612,
+        "tnr": 0.48516
+      },
+      "test_calibrated": {
+        "accuracy": 0.50062,
+        "tpr": 0.5837,
+        "tnr": 0.41754
+      }
+    }
+  },
+  "F1": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51912,
+        "tpr": 0.71308,
+        "tnr": 0.32516
+      },
+      "test_calibrated": {
+        "accuracy": 0.51969,
+        "tpr": 0.80908,
+        "tnr": 0.2303
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50051,
+        "tpr": 0.97598,
+        "tnr": 0.02504
+      },
+      "test_calibrated": {
+        "accuracy": 0.49855,
+        "tpr": 0.49842,
+        "tnr": 0.49868
+      }
+    }
+  },
+  "F2": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51306,
+        "tpr": 0.37792,
+        "tnr": 0.6482
+      },
+      "test_calibrated": {
+        "accuracy": 0.51964,
+        "tpr": 0.84604,
+        "tnr": 0.19324
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50049,
+        "tpr": 0.74742,
+        "tnr": 0.25356
+      },
+      "test_calibrated": {
+        "accuracy": 0.49951,
+        "tpr": 0.98022,
+        "tnr": 0.0188
+      }
+    }
+  },
+  "F3": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51224,
+        "tpr": 0.61858,
+        "tnr": 0.4059
+      },
+      "test_calibrated": {
+        "accuracy": 0.51653,
+        "tpr": 0.80478,
+        "tnr": 0.22828
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49959,
+        "tpr": 0.66978,
+        "tnr": 0.3294
+      },
+      "test_calibrated": {
+        "accuracy": 0.50141,
+        "tpr": 0.17174,
+        "tnr": 0.83108
+      }
+    }
+  },
+  "F4": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5082,
+        "tpr": 0.41402,
+        "tnr": 0.60238
+      },
+      "test_calibrated": {
+        "accuracy": 0.51694,
+        "tpr": 0.81606,
+        "tnr": 0.21782
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49918,
+        "tpr": 0.3723,
+        "tnr": 0.62606
+      },
+      "test_calibrated": {
+        "accuracy": 0.49857,
+        "tpr": 0.95796,
+        "tnr": 0.03918
+      }
+    }
+  },
+  "F5": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51539,
+        "tpr": 0.53648,
+        "tnr": 0.4943
+      },
+      "test_calibrated": {
+        "accuracy": 0.51943,
+        "tpr": 0.8849,
+        "tnr": 0.15396
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50214,
+        "tpr": 0.59178,
+        "tnr": 0.4125
+      },
+      "test_calibrated": {
+        "accuracy": 0.50046,
+        "tpr": 0.0103,
+        "tnr": 0.99062
+      }
+    }
+  },
+  "F6": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51419,
+        "tpr": 0.5646,
+        "tnr": 0.46378
+      },
+      "test_calibrated": {
+        "accuracy": 0.517,
+        "tpr": 0.81976,
+        "tnr": 0.21424
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50206,
+        "tpr": 0.3954,
+        "tnr": 0.60872
+      },
+      "test_calibrated": {
+        "accuracy": 0.50166,
+        "tpr": 0.44406,
+        "tnr": 0.55926
+      }
+    }
+  },
+  "F7": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51831,
+        "tpr": 0.6897,
+        "tnr": 0.34692
+      },
+      "test_calibrated": {
+        "accuracy": 0.51957,
+        "tpr": 0.84604,
+        "tnr": 0.1931
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50094,
+        "tpr": 0.7369,
+        "tnr": 0.26498
+      },
+      "test_calibrated": {
+        "accuracy": 0.50121,
+        "tpr": 0.13862,
+        "tnr": 0.8638
+      }
+    }
+  },
+  "F8": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51723,
+        "tpr": 0.74562,
+        "tnr": 0.28884
+      },
+      "test_calibrated": {
+        "accuracy": 0.51742,
+        "tpr": 0.81754,
+        "tnr": 0.2173
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50053,
+        "tpr": 0.72034,
+        "tnr": 0.28072
+      },
+      "test_calibrated": {
+        "accuracy": 0.50021,
+        "tpr": 0.74892,
+        "tnr": 0.2515
+      }
+    }
+  },
+  "F9": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51514,
+        "tpr": 0.64244,
+        "tnr": 0.38784
+      },
+      "test_calibrated": {
+        "accuracy": 0.51703,
+        "tpr": 0.90872,
+        "tnr": 0.12534
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50088,
+        "tpr": 0.56846,
+        "tnr": 0.4333
+      },
+      "test_calibrated": {
+        "accuracy": 0.49953,
+        "tpr": 0.6988,
+        "tnr": 0.30026
+      }
+    }
+  },
+  "FA": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51563,
+        "tpr": 0.59928,
+        "tnr": 0.43198
+      },
+      "test_calibrated": {
+        "accuracy": 0.51809,
+        "tpr": 0.82112,
+        "tnr": 0.21506
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50049,
+        "tpr": 0.71584,
+        "tnr": 0.28514
+      },
+      "test_calibrated": {
+        "accuracy": 0.50061,
+        "tpr": 0.78134,
+        "tnr": 0.21988
+      }
+    }
+  },
+  "FB": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5126,
+        "tpr": 0.5403,
+        "tnr": 0.4849
+      },
+      "test_calibrated": {
+        "accuracy": 0.51846,
+        "tpr": 0.79534,
+        "tnr": 0.24158
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5004,
+        "tpr": 0.80334,
+        "tnr": 0.19746
+      },
+      "test_calibrated": {
+        "accuracy": 0.50054,
+        "tpr": 0.82658,
+        "tnr": 0.1745
+      }
+    }
+  },
+  "FC": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51411,
+        "tpr": 0.51754,
+        "tnr": 0.51068
+      },
+      "test_calibrated": {
+        "accuracy": 0.51826,
+        "tpr": 0.85304,
+        "tnr": 0.18348
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49793,
+        "tpr": 0.54324,
+        "tnr": 0.45262
+      },
+      "test_calibrated": {
+        "accuracy": 0.49866,
+        "tpr": 0.50804,
+        "tnr": 0.48928
+      }
+    }
+  },
+  "FD": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.51689,
+        "tpr": 0.57616,
+        "tnr": 0.45762
+      },
+      "test_calibrated": {
+        "accuracy": 0.51665,
+        "tpr": 0.6411,
+        "tnr": 0.3922
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49945,
+        "tpr": 0.62168,
+        "tnr": 0.37722
+      },
+      "test_calibrated": {
+        "accuracy": 0.50022,
+        "tpr": 0.14732,
+        "tnr": 0.85312
+      }
+    }
+  },
+  "FE": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.5175,
+        "tpr": 0.7646,
+        "tnr": 0.2704
+      },
+      "test_calibrated": {
+        "accuracy": 0.51843,
+        "tpr": 0.8586,
+        "tnr": 0.17826
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.50193,
+        "tpr": 0.24946,
+        "tnr": 0.7544
+      },
+      "test_calibrated": {
+        "accuracy": 0.50086,
+        "tpr": 0.35654,
+        "tnr": 0.64518
+      }
+    }
+  },
+  "FF": {
+    "mixcolumns_disabled": {
+      "mixcolumns": "disabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.52049,
+        "tpr": 0.71448,
+        "tnr": 0.3265
+      },
+      "test_calibrated": {
+        "accuracy": 0.52279,
+        "tpr": 0.86614,
+        "tnr": 0.17944
+      }
+    },
+    "mixcolumns_enabled": {
+      "mixcolumns": "enabled",
+      "status": "completed",
+      "test": {
+        "accuracy": 0.49909,
+        "tpr": 0.97164,
+        "tnr": 0.02654
+      },
+      "test_calibrated": {
+        "accuracy": 0.49996,
+        "tpr": 0.51158,
+        "tnr": 0.48834
+      }
+    }
+  }
+}

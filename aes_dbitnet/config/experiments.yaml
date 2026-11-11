@@ -37,3 +37,15 @@ experiments:
   r3_1B:     {enabled: true,  nr: 3, final_mc: false, bytes: 1B,     note: "NO source precedent for 3-round 1 byte; index 0 is a config choice"}
   # ablations (disabled by default)
   r2_2B_noMC: {enabled: false, nr: 2, final_mc: false, bytes: 2B_r2, note: "tests the final-MC assumption"}
+
+# Systematic study over all 256 plaintext differences (byte 0), DBitNet only. nr=3.
+# "enabled"/"disabled" refer ONLY to the final-round MixColumns (aes_encrypt flag): rounds 1 and 2 always
+# include MixColumns in both variants. Dataset size, epochs and batch come from `modes` (smoke | full).
+all_differences:
+  name: dbitnet_all_differences
+  nr: 3
+  byte_pos: 0
+  bytes: full                         # 16 bytes per ciphertext, input (128, 2)
+  architecture: dbitnet
+  protocol: ndgohr_original_recipe    # MSE + cyclic LR 2e-3..1e-4 (same recipe as the NDGohr run_diff.py); `controlled` also selectable
+  mixcolumns: {enabled: true, disabled: false}

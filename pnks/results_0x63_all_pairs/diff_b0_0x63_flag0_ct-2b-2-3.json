@@ -1,0 +1,33 @@
+{
+  "tag": "diff_b0_0x63_flag0_ct-2b-2-3",
+  "config": {
+    "nr_rounds": 3,
+    "diff_byte": 0,
+    "diff_val": 99,
+    "mix_columns_final_round": false,
+    "ciphertext_bytes": [
+      2,
+      3
+    ],
+    "word_size": 16,
+    "num_blocks": 2,
+    "n_train": 100000,
+    "n_val": 10000,
+    "n_test": 10000,
+    "epochs": 5,
+    "depth": 5
+  },
+  "paper_reference_acc": 0.5309,
+  "thr_0.5": {
+    "thr": 0.5,
+    "Acc": 0.5,
+    "TPR": 0.620390892605279,
+    "TNR": 0.38137780424856066
+  },
+  "thr_calibrated_optional": {
+    "thr": 0.44539472937583924,
+    "Acc": 0.4971,
+    "TPR": 0.9858956276445698,
+    "TNR": 0.015485407980941036
+  }
+}
