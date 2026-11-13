@@ -1,4 +1,5 @@
 # aes_dbitnet — DBitNet vs NDGohr on reduced-round AES-128 (skeleton + CPU smoke stage)
+## NOTE: All processed models and generated data should already be present in the repository, see different direcotries for different sets of output and check experiments.yaml for the available set of runs.
 
 **Status.** This is stage 1: project skeleton, validation tests, CPU smoke pipeline. **No benchmark result exists yet.**
 The notebook (`aes_dbitnet_benchmark.ipynb`), full dataset generation, multi-seed training, the 2^16 WKRP run,
